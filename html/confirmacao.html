@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação - MedCheck</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/confirmacao.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Detalhes da consulta</h1>
+
+        <div id="cartaoConsulta">
+            <p>Médico: <span id="confMedico"></span></p>
+            <p>Data: <span id="confData"></span></p>
+            <p>Hora: <span id="confHora"></span></p>
+            <p>Local: <span id="confLocal"></span></p>
+        </div>
+
+        <div class="acoesConfirmacao">
+            <button id="botaoReagendar">Reagendar</button>
+            <button id="botaoCancelar">Cancelar</button>
+        </div>
+
+        <div id="areaReagendar">
+            <label for="novaData">Nova data:</label>
+            <input type="date" id="novaData">
+
+            <label for="novaHora">Nova hora:</label>
+            <input type="time" id="novaHora">
+
+            <button id="salvarReagendamento">Salvar</button>
+        </div>
+
+        <a href="consultas.html">Voltar para Consultas</a>
+        <p><a href="../index.html">Voltar para a página inicial</a></p>
+    </div>
+
+    <script src="../js/confirmacao.js"></script>
+</body>
+
+</html>
