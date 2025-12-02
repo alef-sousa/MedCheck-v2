@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação - MedCheck</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/confirmacao.css">
+
+    <script>
+        const API_BASE_GLOBAL = "https://medcheck-backend-dbbr.onrender.com";
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Detalhes da Consulta</h1>
+
+        <div id="mensagemConfirmacao" class="mensagem"></div>
+
+        <div id="cartaoConsulta">
+            <p><strong>Médico:</strong> <span id="confMedico"></span></p>
+            <p><strong>Data:</strong> <span id="confData"></span></p>
+            <p><strong>Hora:</strong> <span id="confHora"></span></p>
+            <p><strong>Local:</strong> <span id="confLocal"></span></p>
+        </div>
+
+        <div class="acoesConfirmacao">
+            <button id="botaoReagendar">Reagendar</button>
+            <button id="botaoCancelar">Cancelar Consulta</button>
+        </div>
+
+        <div id="areaReagendar" style="display: none;">
+            <h3>Reagendar Consulta</h3>
+
+            <label for="novaData">Nova data:</label>
+            <input type="date" id="novaData">
+
+            <label for="novaHora">Nova hora:</label>
+            <input type="time" id="novaHora">
+
+            <button id="salvarReagendamento">Salvar Atualização</button>
+        </div>
+
+        <a href="consultas.html">Voltar para Consultas</a>
+        <p><a href="../index.html">Voltar à página inicial</a></p>
+    </div>
+
+    <script src="../js/confirmacao.js"></script>
+</body>
+
+</html>

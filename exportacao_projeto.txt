@@ -1,0 +1,3663 @@
+=== ÁRVORE DE DIRETÓRIOS ===
+Listagem de caminhos de pasta para o volume Windows10
+O número de série do volume é 0000009D E43B:2936
+C:\USERS\ALYSSON\DOCUMENTS\MEDCHECK-V2
+|   exportacao_projeto.txt
+|   
++---backend
+|   |   .env
+|   |   package-lock.json
+|   |   package.json
+|   |   server.js
+|   |   supabaseClient.js
+|   |   
+|   +---controllers
+|   |       consultasController.js
+|   |       usersController.js
+|   |       
+|   +---node_modules
+|   |   |   .package-lock.json
+|   |   |   
+|   |   +---.bin
+|   |   |       mime
+|   |   |       mime.cmd
+|   |   |       mime.ps1
+|   |   |       nodemon
+|   |   |       nodemon.cmd
+|   |   |       nodemon.ps1
+|   |   |       nodetouch
+|   |   |       nodetouch.cmd
+|   |   |       nodetouch.ps1
+|   |   |       semver
+|   |   |       semver.cmd
+|   |   |       semver.ps1
+|   |   |       
+|   |   +---@supabase
+|   |   |   +---auth-js
+|   |   |   |   |   LICENSE
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   +---dist
+|   |   |   |   |   |   tsconfig.module.tsbuildinfo
+|   |   |   |   |   |   tsconfig.tsbuildinfo
+|   |   |   |   |   |   
+|   |   |   |   |   +---main
+|   |   |   |   |   |   |   AuthAdminApi.d.ts
+|   |   |   |   |   |   |   AuthAdminApi.d.ts.map
+|   |   |   |   |   |   |   AuthAdminApi.js
+|   |   |   |   |   |   |   AuthAdminApi.js.map
+|   |   |   |   |   |   |   AuthClient.d.ts
+|   |   |   |   |   |   |   AuthClient.d.ts.map
+|   |   |   |   |   |   |   AuthClient.js
+|   |   |   |   |   |   |   AuthClient.js.map
+|   |   |   |   |   |   |   GoTrueAdminApi.d.ts
+|   |   |   |   |   |   |   GoTrueAdminApi.d.ts.map
+|   |   |   |   |   |   |   GoTrueAdminApi.js
+|   |   |   |   |   |   |   GoTrueAdminApi.js.map
+|   |   |   |   |   |   |   GoTrueClient.d.ts
+|   |   |   |   |   |   |   GoTrueClient.d.ts.map
+|   |   |   |   |   |   |   GoTrueClient.js
+|   |   |   |   |   |   |   GoTrueClient.js.map
+|   |   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   |   index.d.ts.map
+|   |   |   |   |   |   |   index.js
+|   |   |   |   |   |   |   index.js.map
+|   |   |   |   |   |   |   
+|   |   |   |   |   |   \---lib
+|   |   |   |   |   |       |   base64url.d.ts
+|   |   |   |   |   |       |   base64url.d.ts.map
+|   |   |   |   |   |       |   base64url.js
+|   |   |   |   |   |       |   base64url.js.map
+|   |   |   |   |   |       |   constants.d.ts
+|   |   |   |   |   |       |   constants.d.ts.map
+|   |   |   |   |   |       |   constants.js
+|   |   |   |   |   |       |   constants.js.map
+|   |   |   |   |   |       |   error-codes.d.ts
+|   |   |   |   |   |       |   error-codes.d.ts.map
+|   |   |   |   |   |       |   error-codes.js
+|   |   |   |   |   |       |   error-codes.js.map
+|   |   |   |   |   |       |   errors.d.ts
+|   |   |   |   |   |       |   errors.d.ts.map
+|   |   |   |   |   |       |   errors.js
+|   |   |   |   |   |       |   errors.js.map
+|   |   |   |   |   |       |   fetch.d.ts
+|   |   |   |   |   |       |   fetch.d.ts.map
+|   |   |   |   |   |       |   fetch.js
+|   |   |   |   |   |       |   fetch.js.map
+|   |   |   |   |   |       |   helpers.d.ts
+|   |   |   |   |   |       |   helpers.d.ts.map
+|   |   |   |   |   |       |   helpers.js
+|   |   |   |   |   |       |   helpers.js.map
+|   |   |   |   |   |       |   local-storage.d.ts
+|   |   |   |   |   |       |   local-storage.d.ts.map
+|   |   |   |   |   |       |   local-storage.js
+|   |   |   |   |   |       |   local-storage.js.map
+|   |   |   |   |   |       |   locks.d.ts
+|   |   |   |   |   |       |   locks.d.ts.map
+|   |   |   |   |   |       |   locks.js
+|   |   |   |   |   |       |   locks.js.map
+|   |   |   |   |   |       |   polyfills.d.ts
+|   |   |   |   |   |       |   polyfills.d.ts.map
+|   |   |   |   |   |       |   polyfills.js
+|   |   |   |   |   |       |   polyfills.js.map
+|   |   |   |   |   |       |   types.d.ts
+|   |   |   |   |   |       |   types.d.ts.map
+|   |   |   |   |   |       |   types.js
+|   |   |   |   |   |       |   types.js.map
+|   |   |   |   |   |       |   version.d.ts
+|   |   |   |   |   |       |   version.d.ts.map
+|   |   |   |   |   |       |   version.js
+|   |   |   |   |   |       |   version.js.map
+|   |   |   |   |   |       |   webauthn.d.ts
+|   |   |   |   |   |       |   webauthn.d.ts.map
+|   |   |   |   |   |       |   webauthn.dom.d.ts
+|   |   |   |   |   |       |   webauthn.dom.d.ts.map
+|   |   |   |   |   |       |   webauthn.dom.js
+|   |   |   |   |   |       |   webauthn.dom.js.map
+|   |   |   |   |   |       |   webauthn.errors.d.ts
+|   |   |   |   |   |       |   webauthn.errors.d.ts.map
+|   |   |   |   |   |       |   webauthn.errors.js
+|   |   |   |   |   |       |   webauthn.errors.js.map
+|   |   |   |   |   |       |   webauthn.js
+|   |   |   |   |   |       |   webauthn.js.map
+|   |   |   |   |   |       |   
+|   |   |   |   |   |       \---web3
+|   |   |   |   |   |               ethereum.d.ts
+|   |   |   |   |   |               ethereum.d.ts.map
+|   |   |   |   |   |               ethereum.js
+|   |   |   |   |   |               ethereum.js.map
+|   |   |   |   |   |               solana.d.ts
+|   |   |   |   |   |               solana.d.ts.map
+|   |   |   |   |   |               solana.js
+|   |   |   |   |   |               solana.js.map
+|   |   |   |   |   |               
+|   |   |   |   |   \---module
+|   |   |   |   |       |   AuthAdminApi.d.ts
+|   |   |   |   |       |   AuthAdminApi.d.ts.map
+|   |   |   |   |       |   AuthAdminApi.js
+|   |   |   |   |       |   AuthAdminApi.js.map
+|   |   |   |   |       |   AuthClient.d.ts
+|   |   |   |   |       |   AuthClient.d.ts.map
+|   |   |   |   |       |   AuthClient.js
+|   |   |   |   |       |   AuthClient.js.map
+|   |   |   |   |       |   GoTrueAdminApi.d.ts
+|   |   |   |   |       |   GoTrueAdminApi.d.ts.map
+|   |   |   |   |       |   GoTrueAdminApi.js
+|   |   |   |   |       |   GoTrueAdminApi.js.map
+|   |   |   |   |       |   GoTrueClient.d.ts
+|   |   |   |   |       |   GoTrueClient.d.ts.map
+|   |   |   |   |       |   GoTrueClient.js
+|   |   |   |   |       |   GoTrueClient.js.map
+|   |   |   |   |       |   index.d.ts
+|   |   |   |   |       |   index.d.ts.map
+|   |   |   |   |       |   index.js
+|   |   |   |   |       |   index.js.map
+|   |   |   |   |       |   
+|   |   |   |   |       \---lib
+|   |   |   |   |           |   base64url.d.ts
+|   |   |   |   |           |   base64url.d.ts.map
+|   |   |   |   |           |   base64url.js
+|   |   |   |   |           |   base64url.js.map
+|   |   |   |   |           |   constants.d.ts
+|   |   |   |   |           |   constants.d.ts.map
+|   |   |   |   |           |   constants.js
+|   |   |   |   |           |   constants.js.map
+|   |   |   |   |           |   error-codes.d.ts
+|   |   |   |   |           |   error-codes.d.ts.map
+|   |   |   |   |           |   error-codes.js
+|   |   |   |   |           |   error-codes.js.map
+|   |   |   |   |           |   errors.d.ts
+|   |   |   |   |           |   errors.d.ts.map
+|   |   |   |   |           |   errors.js
+|   |   |   |   |           |   errors.js.map
+|   |   |   |   |           |   fetch.d.ts
+|   |   |   |   |           |   fetch.d.ts.map
+|   |   |   |   |           |   fetch.js
+|   |   |   |   |           |   fetch.js.map
+|   |   |   |   |           |   helpers.d.ts
+|   |   |   |   |           |   helpers.d.ts.map
+|   |   |   |   |           |   helpers.js
+|   |   |   |   |           |   helpers.js.map
+|   |   |   |   |           |   local-storage.d.ts
+|   |   |   |   |           |   local-storage.d.ts.map
+|   |   |   |   |           |   local-storage.js
+|   |   |   |   |           |   local-storage.js.map
+|   |   |   |   |           |   locks.d.ts
+|   |   |   |   |           |   locks.d.ts.map
+|   |   |   |   |           |   locks.js
+|   |   |   |   |           |   locks.js.map
+|   |   |   |   |           |   polyfills.d.ts
+|   |   |   |   |           |   polyfills.d.ts.map
+|   |   |   |   |           |   polyfills.js
+|   |   |   |   |           |   polyfills.js.map
+|   |   |   |   |           |   types.d.ts
+|   |   |   |   |           |   types.d.ts.map
+|   |   |   |   |           |   types.js
+|   |   |   |   |           |   types.js.map
+|   |   |   |   |           |   version.d.ts
+|   |   |   |   |           |   version.d.ts.map
+|   |   |   |   |           |   version.js
+|   |   |   |   |           |   version.js.map
+|   |   |   |   |           |   webauthn.d.ts
+|   |   |   |   |           |   webauthn.d.ts.map
+|   |   |   |   |           |   webauthn.dom.d.ts
+|   |   |   |   |           |   webauthn.dom.d.ts.map
+|   |   |   |   |           |   webauthn.dom.js
+|   |   |   |   |           |   webauthn.dom.js.map
+|   |   |   |   |           |   webauthn.errors.d.ts
+|   |   |   |   |           |   webauthn.errors.d.ts.map
+|   |   |   |   |           |   webauthn.errors.js
+|   |   |   |   |           |   webauthn.errors.js.map
+|   |   |   |   |           |   webauthn.js
+|   |   |   |   |           |   webauthn.js.map
+|   |   |   |   |           |   
+|   |   |   |   |           \---web3
+|   |   |   |   |                   ethereum.d.ts
+|   |   |   |   |                   ethereum.d.ts.map
+|   |   |   |   |                   ethereum.js
+|   |   |   |   |                   ethereum.js.map
+|   |   |   |   |                   solana.d.ts
+|   |   |   |   |                   solana.d.ts.map
+|   |   |   |   |                   solana.js
+|   |   |   |   |                   solana.js.map
+|   |   |   |   |                   
+|   |   |   |   \---src
+|   |   |   |       |   AuthAdminApi.ts
+|   |   |   |       |   AuthClient.ts
+|   |   |   |       |   GoTrueAdminApi.ts
+|   |   |   |       |   GoTrueClient.ts
+|   |   |   |       |   index.ts
+|   |   |   |       |   
+|   |   |   |       \---lib
+|   |   |   |           |   base64url.ts
+|   |   |   |           |   constants.ts
+|   |   |   |           |   error-codes.ts
+|   |   |   |           |   errors.ts
+|   |   |   |           |   fetch.ts
+|   |   |   |           |   helpers.ts
+|   |   |   |           |   local-storage.ts
+|   |   |   |           |   locks.ts
+|   |   |   |           |   polyfills.ts
+|   |   |   |           |   types.ts
+|   |   |   |           |   version.ts
+|   |   |   |           |   webauthn.dom.ts
+|   |   |   |           |   webauthn.errors.ts
+|   |   |   |           |   webauthn.ts
+|   |   |   |           |   
+|   |   |   |           \---web3
+|   |   |   |                   ethereum.ts
+|   |   |   |                   solana.ts
+|   |   |   |                   
+|   |   |   +---functions-js
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   +---dist
+|   |   |   |   |   |   tsconfig.module.tsbuildinfo
+|   |   |   |   |   |   tsconfig.tsbuildinfo
+|   |   |   |   |   |   
+|   |   |   |   |   +---main
+|   |   |   |   |   |       FunctionsClient.d.ts
+|   |   |   |   |   |       FunctionsClient.d.ts.map
+|   |   |   |   |   |       FunctionsClient.js
+|   |   |   |   |   |       FunctionsClient.js.map
+|   |   |   |   |   |       helper.d.ts
+|   |   |   |   |   |       helper.d.ts.map
+|   |   |   |   |   |       helper.js
+|   |   |   |   |   |       helper.js.map
+|   |   |   |   |   |       index.d.ts
+|   |   |   |   |   |       index.d.ts.map
+|   |   |   |   |   |       index.js
+|   |   |   |   |   |       index.js.map
+|   |   |   |   |   |       types.d.ts
+|   |   |   |   |   |       types.d.ts.map
+|   |   |   |   |   |       types.js
+|   |   |   |   |   |       types.js.map
+|   |   |   |   |   |       version.d.ts
+|   |   |   |   |   |       version.d.ts.map
+|   |   |   |   |   |       version.js
+|   |   |   |   |   |       version.js.map
+|   |   |   |   |   |       
+|   |   |   |   |   \---module
+|   |   |   |   |           FunctionsClient.d.ts
+|   |   |   |   |           FunctionsClient.d.ts.map
+|   |   |   |   |           FunctionsClient.js
+|   |   |   |   |           FunctionsClient.js.map
+|   |   |   |   |           helper.d.ts
+|   |   |   |   |           helper.d.ts.map
+|   |   |   |   |           helper.js
+|   |   |   |   |           helper.js.map
+|   |   |   |   |           index.d.ts
+|   |   |   |   |           index.d.ts.map
+|   |   |   |   |           index.js
+|   |   |   |   |           index.js.map
+|   |   |   |   |           types.d.ts
+|   |   |   |   |           types.d.ts.map
+|   |   |   |   |           types.js
+|   |   |   |   |           types.js.map
+|   |   |   |   |           version.d.ts
+|   |   |   |   |           version.d.ts.map
+|   |   |   |   |           version.js
+|   |   |   |   |           version.js.map
+|   |   |   |   |           
+|   |   |   |   \---src
+|   |   |   |           edge-runtime.d.ts
+|   |   |   |           FunctionsClient.ts
+|   |   |   |           helper.ts
+|   |   |   |           index.ts
+|   |   |   |           types.ts
+|   |   |   |           version.ts
+|   |   |   |           
+|   |   |   +---postgrest-js
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   +---dist
+|   |   |   |   |   |   tsconfig.tsbuildinfo
+|   |   |   |   |   |   
+|   |   |   |   |   +---cjs
+|   |   |   |   |   |   |   constants.d.ts
+|   |   |   |   |   |   |   constants.d.ts.map
+|   |   |   |   |   |   |   constants.js
+|   |   |   |   |   |   |   constants.js.map
+|   |   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   |   index.d.ts.map
+|   |   |   |   |   |   |   index.js
+|   |   |   |   |   |   |   index.js.map
+|   |   |   |   |   |   |   PostgrestBuilder.d.ts
+|   |   |   |   |   |   |   PostgrestBuilder.d.ts.map
+|   |   |   |   |   |   |   PostgrestBuilder.js
+|   |   |   |   |   |   |   PostgrestBuilder.js.map
+|   |   |   |   |   |   |   PostgrestClient.d.ts
+|   |   |   |   |   |   |   PostgrestClient.d.ts.map
+|   |   |   |   |   |   |   PostgrestClient.js
+|   |   |   |   |   |   |   PostgrestClient.js.map
+|   |   |   |   |   |   |   PostgrestError.d.ts
+|   |   |   |   |   |   |   PostgrestError.d.ts.map
+|   |   |   |   |   |   |   PostgrestError.js
+|   |   |   |   |   |   |   PostgrestError.js.map
+|   |   |   |   |   |   |   PostgrestFilterBuilder.d.ts
+|   |   |   |   |   |   |   PostgrestFilterBuilder.d.ts.map
+|   |   |   |   |   |   |   PostgrestFilterBuilder.js
+|   |   |   |   |   |   |   PostgrestFilterBuilder.js.map
+|   |   |   |   |   |   |   PostgrestQueryBuilder.d.ts
+|   |   |   |   |   |   |   PostgrestQueryBuilder.d.ts.map
+|   |   |   |   |   |   |   PostgrestQueryBuilder.js
+|   |   |   |   |   |   |   PostgrestQueryBuilder.js.map
+|   |   |   |   |   |   |   PostgrestTransformBuilder.d.ts
+|   |   |   |   |   |   |   PostgrestTransformBuilder.d.ts.map
+|   |   |   |   |   |   |   PostgrestTransformBuilder.js
+|   |   |   |   |   |   |   PostgrestTransformBuilder.js.map
+|   |   |   |   |   |   |   version.d.ts
+|   |   |   |   |   |   |   version.d.ts.map
+|   |   |   |   |   |   |   version.js
+|   |   |   |   |   |   |   version.js.map
+|   |   |   |   |   |   |   
+|   |   |   |   |   |   +---select-query-parser
+|   |   |   |   |   |   |       parser.d.ts
+|   |   |   |   |   |   |       parser.d.ts.map
+|   |   |   |   |   |   |       parser.js
+|   |   |   |   |   |   |       parser.js.map
+|   |   |   |   |   |   |       result.d.ts
+|   |   |   |   |   |   |       result.d.ts.map
+|   |   |   |   |   |   |       result.js
+|   |   |   |   |   |   |       result.js.map
+|   |   |   |   |   |   |       types.d.ts
+|   |   |   |   |   |   |       types.d.ts.map
+|   |   |   |   |   |   |       types.js
+|   |   |   |   |   |   |       types.js.map
+|   |   |   |   |   |   |       utils.d.ts
+|   |   |   |   |   |   |       utils.d.ts.map
+|   |   |   |   |   |   |       utils.js
+|   |   |   |   |   |   |       utils.js.map
+|   |   |   |   |   |   |       
+|   |   |   |   |   |   \---types
+|   |   |   |   |   |       |   feature-flags.d.ts
+|   |   |   |   |   |       |   feature-flags.d.ts.map
+|   |   |   |   |   |       |   feature-flags.js
+|   |   |   |   |   |       |   feature-flags.js.map
+|   |   |   |   |   |       |   types.d.ts
+|   |   |   |   |   |       |   types.d.ts.map
+|   |   |   |   |   |       |   types.js
+|   |   |   |   |   |       |   types.js.map
+|   |   |   |   |   |       |   
+|   |   |   |   |   |       \---common
+|   |   |   |   |   |               common.d.ts
+|   |   |   |   |   |               common.d.ts.map
+|   |   |   |   |   |               common.js
+|   |   |   |   |   |               common.js.map
+|   |   |   |   |   |               rpc.d.ts
+|   |   |   |   |   |               rpc.d.ts.map
+|   |   |   |   |   |               rpc.js
+|   |   |   |   |   |               rpc.js.map
+|   |   |   |   |   |               
+|   |   |   |   |   \---esm
+|   |   |   |   |           wrapper.mjs
+|   |   |   |   |           
+|   |   |   |   \---src
+|   |   |   |       |   constants.ts
+|   |   |   |       |   index.ts
+|   |   |   |       |   PostgrestBuilder.ts
+|   |   |   |       |   PostgrestClient.ts
+|   |   |   |       |   PostgrestError.ts
+|   |   |   |       |   PostgrestFilterBuilder.ts
+|   |   |   |       |   PostgrestQueryBuilder.ts
+|   |   |   |       |   PostgrestTransformBuilder.ts
+|   |   |   |       |   version.ts
+|   |   |   |       |   
+|   |   |   |       +---select-query-parser
+|   |   |   |       |       parser.ts
+|   |   |   |       |       result.ts
+|   |   |   |       |       types.ts
+|   |   |   |       |       utils.ts
+|   |   |   |       |       
+|   |   |   |       \---types
+|   |   |   |           |   feature-flags.ts
+|   |   |   |           |   types.ts
+|   |   |   |           |   
+|   |   |   |           \---common
+|   |   |   |                   common.ts
+|   |   |   |                   rpc.ts
+|   |   |   |                   
+|   |   |   +---realtime-js
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   +---dist
+|   |   |   |   |   |   tsconfig.module.tsbuildinfo
+|   |   |   |   |   |   tsconfig.tsbuildinfo
+|   |   |   |   |   |   
+|   |   |   |   |   +---main
+|   |   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   |   index.d.ts.map
+|   |   |   |   |   |   |   index.js
+|   |   |   |   |   |   |   index.js.map
+|   |   |   |   |   |   |   RealtimeChannel.d.ts
+|   |   |   |   |   |   |   RealtimeChannel.d.ts.map
+|   |   |   |   |   |   |   RealtimeChannel.js
+|   |   |   |   |   |   |   RealtimeChannel.js.map
+|   |   |   |   |   |   |   RealtimeClient.d.ts
+|   |   |   |   |   |   |   RealtimeClient.d.ts.map
+|   |   |   |   |   |   |   RealtimeClient.js
+|   |   |   |   |   |   |   RealtimeClient.js.map
+|   |   |   |   |   |   |   RealtimePresence.d.ts
+|   |   |   |   |   |   |   RealtimePresence.d.ts.map
+|   |   |   |   |   |   |   RealtimePresence.js
+|   |   |   |   |   |   |   RealtimePresence.js.map
+|   |   |   |   |   |   |   
+|   |   |   |   |   |   \---lib
+|   |   |   |   |   |           constants.d.ts
+|   |   |   |   |   |           constants.d.ts.map
+|   |   |   |   |   |           constants.js
+|   |   |   |   |   |           constants.js.map
+|   |   |   |   |   |           push.d.ts
+|   |   |   |   |   |           push.d.ts.map
+|   |   |   |   |   |           push.js
+|   |   |   |   |   |           push.js.map
+|   |   |   |   |   |           serializer.d.ts
+|   |   |   |   |   |           serializer.d.ts.map
+|   |   |   |   |   |           serializer.js
+|   |   |   |   |   |           serializer.js.map
+|   |   |   |   |   |           timer.d.ts
+|   |   |   |   |   |           timer.d.ts.map
+|   |   |   |   |   |           timer.js
+|   |   |   |   |   |           timer.js.map
+|   |   |   |   |   |           transformers.d.ts
+|   |   |   |   |   |           transformers.d.ts.map
+|   |   |   |   |   |           transformers.js
+|   |   |   |   |   |           transformers.js.map
+|   |   |   |   |   |           version.d.ts
+|   |   |   |   |   |           version.d.ts.map
+|   |   |   |   |   |           version.js
+|   |   |   |   |   |           version.js.map
+|   |   |   |   |   |           websocket-factory.d.ts
+|   |   |   |   |   |           websocket-factory.d.ts.map
+|   |   |   |   |   |           websocket-factory.js
+|   |   |   |   |   |           websocket-factory.js.map
+|   |   |   |   |   |           
+|   |   |   |   |   \---module
+|   |   |   |   |       |   index.d.ts
+|   |   |   |   |       |   index.d.ts.map
+|   |   |   |   |       |   index.js
+|   |   |   |   |       |   index.js.map
+|   |   |   |   |       |   RealtimeChannel.d.ts
+|   |   |   |   |       |   RealtimeChannel.d.ts.map
+|   |   |   |   |       |   RealtimeChannel.js
+|   |   |   |   |       |   RealtimeChannel.js.map
+|   |   |   |   |       |   RealtimeClient.d.ts
+|   |   |   |   |       |   RealtimeClient.d.ts.map
+|   |   |   |   |       |   RealtimeClient.js
+|   |   |   |   |       |   RealtimeClient.js.map
+|   |   |   |   |       |   RealtimePresence.d.ts
+|   |   |   |   |       |   RealtimePresence.d.ts.map
+|   |   |   |   |       |   RealtimePresence.js
+|   |   |   |   |       |   RealtimePresence.js.map
+|   |   |   |   |       |   
+|   |   |   |   |       \---lib
+|   |   |   |   |               constants.d.ts
+|   |   |   |   |               constants.d.ts.map
+|   |   |   |   |               constants.js
+|   |   |   |   |               constants.js.map
+|   |   |   |   |               push.d.ts
+|   |   |   |   |               push.d.ts.map
+|   |   |   |   |               push.js
+|   |   |   |   |               push.js.map
+|   |   |   |   |               serializer.d.ts
+|   |   |   |   |               serializer.d.ts.map
+|   |   |   |   |               serializer.js
+|   |   |   |   |               serializer.js.map
+|   |   |   |   |               timer.d.ts
+|   |   |   |   |               timer.d.ts.map
+|   |   |   |   |               timer.js
+|   |   |   |   |               timer.js.map
+|   |   |   |   |               transformers.d.ts
+|   |   |   |   |               transformers.d.ts.map
+|   |   |   |   |               transformers.js
+|   |   |   |   |               transformers.js.map
+|   |   |   |   |               version.d.ts
+|   |   |   |   |               version.d.ts.map
+|   |   |   |   |               version.js
+|   |   |   |   |               version.js.map
+|   |   |   |   |               websocket-factory.d.ts
+|   |   |   |   |               websocket-factory.d.ts.map
+|   |   |   |   |               websocket-factory.js
+|   |   |   |   |               websocket-factory.js.map
+|   |   |   |   |               
+|   |   |   |   \---src
+|   |   |   |       |   index.ts
+|   |   |   |       |   RealtimeChannel.ts
+|   |   |   |       |   RealtimeClient.ts
+|   |   |   |       |   RealtimePresence.ts
+|   |   |   |       |   
+|   |   |   |       \---lib
+|   |   |   |               constants.ts
+|   |   |   |               push.ts
+|   |   |   |               serializer.ts
+|   |   |   |               timer.ts
+|   |   |   |               transformers.ts
+|   |   |   |               version.ts
+|   |   |   |               websocket-factory.ts
+|   |   |   |               
+|   |   |   +---storage-js
+|   |   |   |   |   package.json
+|   |   |   |   |   README.md
+|   |   |   |   |   
+|   |   |   |   +---dist
+|   |   |   |   |   |   tsconfig.module.tsbuildinfo
+|   |   |   |   |   |   tsconfig.tsbuildinfo
+|   |   |   |   |   |   
+|   |   |   |   |   +---main
+|   |   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   |   index.d.ts.map
+|   |   |   |   |   |   |   index.js
+|   |   |   |   |   |   |   index.js.map
+|   |   |   |   |   |   |   StorageClient.d.ts
+|   |   |   |   |   |   |   StorageClient.d.ts.map
+|   |   |   |   |   |   |   StorageClient.js
+|   |   |   |   |   |   |   StorageClient.js.map
+|   |   |   |   |   |   |   
+|   |   |   |   |   |   +---lib
+|   |   |   |   |   |   |   |   constants.d.ts
+|   |   |   |   |   |   |   |   constants.d.ts.map
+|   |   |   |   |   |   |   |   constants.js
+|   |   |   |   |   |   |   |   constants.js.map
+|   |   |   |   |   |   |   |   errors.d.ts
+|   |   |   |   |   |   |   |   errors.d.ts.map
+|   |   |   |   |   |   |   |   errors.js
+|   |   |   |   |   |   |   |   errors.js.map
+|   |   |   |   |   |   |   |   fetch.d.ts
+|   |   |   |   |   |   |   |   fetch.d.ts.map
+|   |   |   |   |   |   |   |   fetch.js
+|   |   |   |   |   |   |   |   fetch.js.map
+|   |   |   |   |   |   |   |   helpers.d.ts
+|   |   |   |   |   |   |   |   helpers.d.ts.map
+|   |   |   |   |   |   |   |   helpers.js
+|   |   |   |   |   |   |   |   helpers.js.map
+|   |   |   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   |   |   index.d.ts.map
+|   |   |   |   |   |   |   |   index.js
+|   |   |   |   |   |   |   |   index.js.map
+|   |   |   |   |   |   |   |   types.d.ts
+|   |   |   |   |   |   |   |   types.d.ts.map
+|   |   |   |   |   |   |   |   types.js
+|   |   |   |   |   |   |   |   types.js.map
+|   |   |   |   |   |   |   |   version.d.ts
+|   |   |   |   |   |   |   |   version.d.ts.map
+|   |   |   |   |   |   |   |   version.js
+|   |   |   |   |   |   |   |   version.js.map
+|   |   |   |   |   |   |   |   
+|   |   |   |   |   |   |   \---vectors
+|   |   |   |   |   |   |           constants.d.ts
+|   |   |   |   |   |   |           constants.d.ts.map
+|   |   |   |   |   |   |           constants.js
+|   |   |   |   |   |   |           constants.js.map
+|   |   |   |   |   |   |           errors.d.ts
+|   |   |   |   |   |   |           errors.d.ts.map
+|   |   |   |   |   |   |           errors.js
+|   |   |   |   |   |   |           errors.js.map
+|   |   |   |   |   |   |           fetch.d.ts
+|   |   |   |   |   |   |           fetch.d.ts.map
+|   |   |   |   |   |   |           fetch.js
+|   |   |   |   |   |   |           fetch.js.map
+|   |   |   |   |   |   |           helpers.d.ts
+|   |   |   |   |   |   |           helpers.d.ts.map
+|   |   |   |   |   |   |           helpers.js
+|   |   |   |   |   |   |           helpers.js.map
+|   |   |   |   |   |   |           index.d.ts
+|   |   |   |   |   |   |           index.d.ts.map
+|   |   |   |   |   |   |           index.js
+|   |   |   |   |   |   |           index.js.map
+|   |   |   |   |   |   |           StorageVectorsClient.d.ts
+|   |   |   |   |   |   |           StorageVectorsClient.d.ts.map
+|   |   |   |   |   |   |           StorageVectorsClient.js
+|   |   |   |   |   |   |           StorageVectorsClient.js.map
+|   |   |   |   |   |   |           types.d.ts
+|   |   |   |   |   |   |           types.d.ts.map
+|   |   |   |   |   |   |           types.js
+|   |   |   |   |   |   |           types.js.map
+|   |   |   |   |   |   |           VectorBucketApi.d.ts
+|   |   |   |   |   |   |           VectorBucketApi.d.ts.map
+|   |   |   |   |   |   |           VectorBucketApi.js
+|   |   |   |   |   |   |           VectorBucketApi.js.map
+|   |   |   |   |   |   |           VectorDataApi.d.ts
+|   |   |   |   |   |   |           VectorDataApi.d.ts.map
+|   |   |   |   |   |   |           VectorDataApi.js
+|   |   |   |   |   |   |           VectorDataApi.js.map
+|   |   |   |   |   |   |           VectorIndexApi.d.ts
+|   |   |   |   |   |   |           VectorIndexApi.d.ts.map
+|   |   |   |   |   |   |           VectorIndexApi.js
+|   |   |   |   |   |   |           VectorIndexApi.js.map
+|   |   |   |   |   |   |           
+|   |   |   |   |   |   \---packages
+|   |   |   |   |   |           BlobDownloadBuilder.d.ts
+|   |   |   |   |   |           BlobDownloadBuilder.d.ts.map
+|   |   |   |   |   |           BlobDownloadBuilder.js
+|   |   |   |   |   |           BlobDownloadBuilder.js.map
+|   |   |   |   |   |           StorageAnalyticsClient.d.ts
+|   |   |   |   |   |           StorageAnalyticsClient.d.ts.map
+|   |   |   |   |   |           StorageAnalyticsClient.js
+|   |   |   |   |   |           StorageAnalyticsClient.js.map
+|   |   |   |   |   |           StorageBucketApi.d.ts
+|   |   |   |   |   |           StorageBucketApi.d.ts.map
+|   |   |   |   |   |           StorageBucketApi.js
+|   |   |   |   |   |           StorageBucketApi.js.map
+|   |   |   |   |   |           StorageFileApi.d.ts
+|   |   |   |   |   |           StorageFileApi.d.ts.map
+|   |   |   |   |   |           StorageFileApi.js
+|   |   |   |   |   |           StorageFileApi.js.map
+|   |   |   |   |   |           StreamDownloadBuilder.d.ts
+|   |   |   |   |   |           StreamDownloadBuilder.d.ts.map
+|   |   |   |   |   |           StreamDownloadBuilder.js
+|   |   |   |   |   |           StreamDownloadBuilder.js.map
+|   |   |   |   |   |           
+|   |   |   |   |   +---module
+|   |   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   |   index.d.ts.map
+|   |   |   |   |   |   |   index.js
+|   |   |   |   |   |   |   index.js.map
+|   |   |   |   |   |   |   StorageClient.d.ts
+|   |   |   |   |   |   |   StorageClient.d.ts.map
+|   |   |   |   |   |   |   StorageClient.js
+|   |   |   |   |   |   |   StorageClient.js.map
+|   |   |   |   |   |   |   
+|   |   |   |   |   |   +---lib
+|   |   |   |   |   |   |   |   constants.d.ts
+|   |   |   |   |   |   |   |   constants.d.ts.map
+|   |   |   |   |   |   |   |   constants.js
+|   |   |   |   |   |   |   |   constants.js.map
+|   |   |   |   |   |   |   |   errors.d.ts
+|   |   |   |   |   |   |   |   errors.d.ts.map
+|   |   |   |   |   |   |   |   errors.js
+|   |   |   |   |   |   |   |   errors.js.map
+|   |   |   |   |   |   |   |   fetch.d.ts
+|   |   |   |   |   |   |   |   fetch.d.ts.map
+|   |   |   |   |   |   |   |   fetch.js
+|   |   |   |   |   |   |   |   fetch.js.map
+|   |   |   |   |   |   |   |   helpers.d.ts
+|   |   |   |   |   |   |   |   helpers.d.ts.map
+|   |   |   |   |   |   |   |   helpers.js
+|   |   |   |   |   |   |   |   helpers.js.map
+|   |   |   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   |   |   index.d.ts.map
+|   |   |   |   |   |   |   |   index.js
+|   |   |   |   |   |   |   |   index.js.map
+|   |   |   |   |   |   |   |   types.d.ts
+|   |   |   |   |   |   |   |   types.d.ts.map
+|   |   |   |   |   |   |   |   types.js
+|   |   |   |   |   |   |   |   types.js.map
+|   |   |   |   |   |   |   |   version.d.ts
+|   |   |   |   |   |   |   |   version.d.ts.map
+|   |   |   |   |   |   |   |   version.js
+|   |   |   |   |   |   |   |   version.js.map
+|   |   |   |   |   |   |   |   
+|   |   |   |   |   |   |   \---vectors
+|   |   |   |   |   |   |           constants.d.ts
+|   |   |   |   |   |   |           constants.d.ts.map
+|   |   |   |   |   |   |           constants.js
+|   |   |   |   |   |   |           constants.js.map
+|   |   |   |   |   |   |           errors.d.ts
+|   |   |   |   |   |   |           errors.d.ts.map
+|   |   |   |   |   |   |           errors.js
+|   |   |   |   |   |   |           errors.js.map
+|   |   |   |   |   |   |           fetch.d.ts
+|   |   |   |   |   |   |           fetch.d.ts.map
+|   |   |   |   |   |   |           fetch.js
+|   |   |   |   |   |   |           fetch.js.map
+|   |   |   |   |   |   |           helpers.d.ts
+|   |   |   |   |   |   |           helpers.d.ts.map
+|   |   |   |   |   |   |           helpers.js
+|   |   |   |   |   |   |           helpers.js.map
+|   |   |   |   |   |   |           index.d.ts
+|   |   |   |   |   |   |           index.d.ts.map
+|   |   |   |   |   |   |           index.js
+|   |   |   |   |   |   |           index.js.map
+|   |   |   |   |   |   |           StorageVectorsClient.d.ts
+|   |   |   |   |   |   |           StorageVectorsClient.d.ts.map
+|   |   |   |   |   |   |           StorageVectorsClient.js
+|   |   |   |   |   |   |           StorageVectorsClient.js.map
+|   |   |   |   |   |   |           types.d.ts
+|   |   |   |   |   |   |           types.d.ts.map
+|   |   |   |   |   |   |           types.js
+|   |   |   |   |   |   |           types.js.map
+|   |   |   |   |   |   |           VectorBucketApi.d.ts
+|   |   |   |   |   |   |           VectorBucketApi.d.ts.map
+|   |   |   |   |   |   |           VectorBucketApi.js
+|   |   |   |   |   |   |           VectorBucketApi.js.map
+|   |   |   |   |   |   |           VectorDataApi.d.ts
+|   |   |   |   |   |   |           VectorDataApi.d.ts.map
+|   |   |   |   |   |   |           VectorDataApi.js
+|   |   |   |   |   |   |           VectorDataApi.js.map
+|   |   |   |   |   |   |           VectorIndexApi.d.ts
+|   |   |   |   |   |   |           VectorIndexApi.d.ts.map
+|   |   |   |   |   |   |           VectorIndexApi.js
+|   |   |   |   |   |   |           VectorIndexApi.js.map
+|   |   |   |   |   |   |           
+|   |   |   |   |   |   \---packages
+|   |   |   |   |   |           BlobDownloadBuilder.d.ts
+|   |   |   |   |   |           BlobDownloadBuilder.d.ts.map
+|   |   |   |   |   |           BlobDownloadBuilder.js
+|   |   |   |   |   |           BlobDownloadBuilder.js.map
+|   |   |   |   |   |           StorageAnalyticsClient.d.ts
+|   |   |   |   |   |           StorageAnalyticsClient.d.ts.map
+|   |   |   |   |   |           StorageAnalyticsClient.js
+|   |   |   |   |   |           StorageAnalyticsClient.js.map
+|   |   |   |   |   |           StorageBucketApi.d.ts
+|   |   |   |   |   |           StorageBucketApi.d.ts.map
+|   |   |   |   |   |           StorageBucketApi.js
+|   |   |   |   |   |           StorageBucketApi.js.map
+|   |   |   |   |   |           StorageFileApi.d.ts
+|   |   |   |   |   |           StorageFileApi.d.ts.map
+|   |   |   |   |   |           StorageFileApi.js
+|   |   |   |   |   |           StorageFileApi.js.map
+|   |   |   |   |   |           StreamDownloadBuilder.d.ts
+|   |   |   |   |   |           StreamDownloadBuilder.d.ts.map
+|   |   |   |   |   |           StreamDownloadBuilder.js
+|   |   |   |   |   |           StreamDownloadBuilder.js.map
+|   |   |   |   |   |           
+|   |   |   |   |   \---umd
+|   |   |   |   |           supabase.js
+|   |   |   |   |           
+|   |   |   |   \---src
+|   |   |   |       |   index.ts
+|   |   |   |       |   StorageClient.ts
+|   |   |   |       |   
+|   |   |   |       +---lib
+|   |   |   |       |   |   constants.ts
+|   |   |   |       |   |   errors.ts
+|   |   |   |       |   |   fetch.ts
+|   |   |   |       |   |   helpers.ts
+|   |   |   |       |   |   index.ts
+|   |   |   |       |   |   types.ts
+|   |   |   |       |   |   version.ts
+|   |   |   |       |   |   
+|   |   |   |       |   \---vectors
+|   |   |   |       |           constants.ts
+|   |   |   |       |           errors.ts
+|   |   |   |       |           fetch.ts
+|   |   |   |       |           helpers.ts
+|   |   |   |       |           index.ts
+|   |   |   |       |           StorageVectorsClient.ts
+|   |   |   |       |           types.ts
+|   |   |   |       |           VectorBucketApi.ts
+|   |   |   |       |           VectorDataApi.ts
+|   |   |   |       |           VectorIndexApi.ts
+|   |   |   |       |           
+|   |   |   |       \---packages
+|   |   |   |               BlobDownloadBuilder.ts
+|   |   |   |               StorageAnalyticsClient.ts
+|   |   |   |               StorageBucketApi.ts
+|   |   |   |               StorageFileApi.ts
+|   |   |   |               StreamDownloadBuilder.ts
+|   |   |   |               
+|   |   |   \---supabase-js
+|   |   |       |   package.json
+|   |   |       |   README.md
+|   |   |       |   
+|   |   |       +---dist
+|   |   |       |   +---main
+|   |   |       |   |   |   index.d.ts
+|   |   |       |   |   |   index.d.ts.map
+|   |   |       |   |   |   index.js
+|   |   |       |   |   |   index.js.map
+|   |   |       |   |   |   SupabaseClient.d.ts
+|   |   |       |   |   |   SupabaseClient.d.ts.map
+|   |   |       |   |   |   SupabaseClient.js
+|   |   |       |   |   |   SupabaseClient.js.map
+|   |   |       |   |   |   
+|   |   |       |   |   \---lib
+|   |   |       |   |       |   constants.d.ts
+|   |   |       |   |       |   constants.d.ts.map
+|   |   |       |   |       |   constants.js
+|   |   |       |   |       |   constants.js.map
+|   |   |       |   |       |   fetch.d.ts
+|   |   |       |   |       |   fetch.d.ts.map
+|   |   |       |   |       |   fetch.js
+|   |   |       |   |       |   fetch.js.map
+|   |   |       |   |       |   helpers.d.ts
+|   |   |       |   |       |   helpers.d.ts.map
+|   |   |       |   |       |   helpers.js
+|   |   |       |   |       |   helpers.js.map
+|   |   |       |   |       |   SupabaseAuthClient.d.ts
+|   |   |       |   |       |   SupabaseAuthClient.d.ts.map
+|   |   |       |   |       |   SupabaseAuthClient.js
+|   |   |       |   |       |   SupabaseAuthClient.js.map
+|   |   |       |   |       |   types.d.ts
+|   |   |       |   |       |   types.d.ts.map
+|   |   |       |   |       |   types.js
+|   |   |       |   |       |   types.js.map
+|   |   |       |   |       |   version.d.ts
+|   |   |       |   |       |   version.d.ts.map
+|   |   |       |   |       |   version.js
+|   |   |       |   |       |   version.js.map
+|   |   |       |   |       |   
+|   |   |       |   |       \---rest
+|   |   |       |   |           \---types
+|   |   |       |   |               \---common
+|   |   |       |   |                       common.d.ts
+|   |   |       |   |                       common.d.ts.map
+|   |   |       |   |                       common.js
+|   |   |       |   |                       common.js.map
+|   |   |       |   |                       rpc.d.ts
+|   |   |       |   |                       rpc.d.ts.map
+|   |   |       |   |                       rpc.js
+|   |   |       |   |                       rpc.js.map
+|   |   |       |   |                       
+|   |   |       |   +---module
+|   |   |       |   |   |   index.d.ts
+|   |   |       |   |   |   index.d.ts.map
+|   |   |       |   |   |   index.js
+|   |   |       |   |   |   index.js.map
+|   |   |       |   |   |   SupabaseClient.d.ts
+|   |   |       |   |   |   SupabaseClient.d.ts.map
+|   |   |       |   |   |   SupabaseClient.js
+|   |   |       |   |   |   SupabaseClient.js.map
+|   |   |       |   |   |   
+|   |   |       |   |   \---lib
+|   |   |       |   |       |   constants.d.ts
+|   |   |       |   |       |   constants.d.ts.map
+|   |   |       |   |       |   constants.js
+|   |   |       |   |       |   constants.js.map
+|   |   |       |   |       |   fetch.d.ts
+|   |   |       |   |       |   fetch.d.ts.map
+|   |   |       |   |       |   fetch.js
+|   |   |       |   |       |   fetch.js.map
+|   |   |       |   |       |   helpers.d.ts
+|   |   |       |   |       |   helpers.d.ts.map
+|   |   |       |   |       |   helpers.js
+|   |   |       |   |       |   helpers.js.map
+|   |   |       |   |       |   SupabaseAuthClient.d.ts
+|   |   |       |   |       |   SupabaseAuthClient.d.ts.map
+|   |   |       |   |       |   SupabaseAuthClient.js
+|   |   |       |   |       |   SupabaseAuthClient.js.map
+|   |   |       |   |       |   types.d.ts
+|   |   |       |   |       |   types.d.ts.map
+|   |   |       |   |       |   types.js
+|   |   |       |   |       |   types.js.map
+|   |   |       |   |       |   version.d.ts
+|   |   |       |   |       |   version.d.ts.map
+|   |   |       |   |       |   version.js
+|   |   |       |   |       |   version.js.map
+|   |   |       |   |       |   
+|   |   |       |   |       \---rest
+|   |   |       |   |           \---types
+|   |   |       |   |               \---common
+|   |   |       |   |                       common.d.ts
+|   |   |       |   |                       common.d.ts.map
+|   |   |       |   |                       common.js
+|   |   |       |   |                       common.js.map
+|   |   |       |   |                       rpc.d.ts
+|   |   |       |   |                       rpc.d.ts.map
+|   |   |       |   |                       rpc.js
+|   |   |       |   |                       rpc.js.map
+|   |   |       |   |                       
+|   |   |       |   \---umd
+|   |   |       |           supabase.js
+|   |   |       |           
+|   |   |       \---src
+|   |   |           |   index.ts
+|   |   |           |   SupabaseClient.ts
+|   |   |           |   
+|   |   |           \---lib
+|   |   |               |   constants.ts
+|   |   |               |   fetch.ts
+|   |   |               |   helpers.ts
+|   |   |               |   SupabaseAuthClient.ts
+|   |   |               |   types.ts
+|   |   |               |   version.ts
+|   |   |               |   
+|   |   |               \---rest
+|   |   |                   \---types
+|   |   |                       \---common
+|   |   |                               common.ts
+|   |   |                               rpc.ts
+|   |   |                               
+|   |   +---@types
+|   |   |   +---node
+|   |   |   |   |   assert.d.ts
+|   |   |   |   |   async_hooks.d.ts
+|   |   |   |   |   buffer.buffer.d.ts
+|   |   |   |   |   buffer.d.ts
+|   |   |   |   |   child_process.d.ts
+|   |   |   |   |   cluster.d.ts
+|   |   |   |   |   console.d.ts
+|   |   |   |   |   constants.d.ts
+|   |   |   |   |   crypto.d.ts
+|   |   |   |   |   dgram.d.ts
+|   |   |   |   |   diagnostics_channel.d.ts
+|   |   |   |   |   dns.d.ts
+|   |   |   |   |   domain.d.ts
+|   |   |   |   |   events.d.ts
+|   |   |   |   |   fs.d.ts
+|   |   |   |   |   globals.d.ts
+|   |   |   |   |   globals.typedarray.d.ts
+|   |   |   |   |   http.d.ts
+|   |   |   |   |   http2.d.ts
+|   |   |   |   |   https.d.ts
+|   |   |   |   |   index.d.ts
+|   |   |   |   |   inspector.d.ts
+|   |   |   |   |   inspector.generated.d.ts
+|   |   |   |   |   LICENSE
+|   |   |   |   |   module.d.ts
+|   |   |   |   |   net.d.ts
+|   |   |   |   |   os.d.ts
+|   |   |   |   |   package.json
+|   |   |   |   |   path.d.ts
+|   |   |   |   |   perf_hooks.d.ts
+|   |   |   |   |   process.d.ts
+|   |   |   |   |   punycode.d.ts
+|   |   |   |   |   querystring.d.ts
+|   |   |   |   |   readline.d.ts
+|   |   |   |   |   README.md
+|   |   |   |   |   repl.d.ts
+|   |   |   |   |   sea.d.ts
+|   |   |   |   |   sqlite.d.ts
+|   |   |   |   |   stream.d.ts
+|   |   |   |   |   string_decoder.d.ts
+|   |   |   |   |   test.d.ts
+|   |   |   |   |   timers.d.ts
+|   |   |   |   |   tls.d.ts
+|   |   |   |   |   trace_events.d.ts
+|   |   |   |   |   tty.d.ts
+|   |   |   |   |   url.d.ts
+|   |   |   |   |   util.d.ts
+|   |   |   |   |   v8.d.ts
+|   |   |   |   |   vm.d.ts
+|   |   |   |   |   wasi.d.ts
+|   |   |   |   |   worker_threads.d.ts
+|   |   |   |   |   zlib.d.ts
+|   |   |   |   |   
+|   |   |   |   +---assert
+|   |   |   |   |       strict.d.ts
+|   |   |   |   |       
+|   |   |   |   +---compatibility
+|   |   |   |   |       iterators.d.ts
+|   |   |   |   |       
+|   |   |   |   +---dns
+|   |   |   |   |       promises.d.ts
+|   |   |   |   |       
+|   |   |   |   +---fs
+|   |   |   |   |       promises.d.ts
+|   |   |   |   |       
+|   |   |   |   +---readline
+|   |   |   |   |       promises.d.ts
+|   |   |   |   |       
+|   |   |   |   +---stream
+|   |   |   |   |       consumers.d.ts
+|   |   |   |   |       promises.d.ts
+|   |   |   |   |       web.d.ts
+|   |   |   |   |       
+|   |   |   |   +---timers
+|   |   |   |   |       promises.d.ts
+|   |   |   |   |       
+|   |   |   |   +---ts5.6
+|   |   |   |   |   |   buffer.buffer.d.ts
+|   |   |   |   |   |   globals.typedarray.d.ts
+|   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   
+|   |   |   |   |   \---compatibility
+|   |   |   |   |           float16array.d.ts
+|   |   |   |   |           
+|   |   |   |   +---ts5.7
+|   |   |   |   |   |   index.d.ts
+|   |   |   |   |   |   
+|   |   |   |   |   \---compatibility
+|   |   |   |   |           float16array.d.ts
+|   |   |   |   |           
+|   |   |   |   \---web-globals
+|   |   |   |           abortcontroller.d.ts
+|   |   |   |           crypto.d.ts
+|   |   |   |           domexception.d.ts
+|   |   |   |           events.d.ts
+|   |   |   |           fetch.d.ts
+|   |   |   |           navigator.d.ts
+|   |   |   |           storage.d.ts
+|   |   |   |           streams.d.ts
+|   |   |   |           
+|   |   |   +---phoenix
+|   |   |   |       index.d.ts
+|   |   |   |       LICENSE
+|   |   |   |       package.json
+|   |   |   |       README.md
+|   |   |   |       
+|   |   |   \---ws
+|   |   |           index.d.mts
+|   |   |           index.d.ts
+|   |   |           LICENSE
+|   |   |           package.json
+|   |   |           README.md
+|   |   |           
+|   |   +---accepts
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---anymatch
+|   |   |       index.d.ts
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---array-flatten
+|   |   |       array-flatten.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---balanced-match
+|   |   |   |   index.js
+|   |   |   |   LICENSE.md
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---.github
+|   |   |           FUNDING.yml
+|   |   |           
+|   |   +---binary-extensions
+|   |   |       binary-extensions.json
+|   |   |       binary-extensions.json.d.ts
+|   |   |       index.d.ts
+|   |   |       index.js
+|   |   |       license
+|   |   |       package.json
+|   |   |       readme.md
+|   |   |       
+|   |   +---body-parser
+|   |   |   |   HISTORY.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |       |   read.js
+|   |   |       |   
+|   |   |       \---types
+|   |   |               json.js
+|   |   |               raw.js
+|   |   |               text.js
+|   |   |               urlencoded.js
+|   |   |               
+|   |   +---brace-expansion
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---braces
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           compile.js
+|   |   |           constants.js
+|   |   |           expand.js
+|   |   |           parse.js
+|   |   |           stringify.js
+|   |   |           utils.js
+|   |   |           
+|   |   +---bytes
+|   |   |       History.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       Readme.md
+|   |   |       
+|   |   +---call-bind-apply-helpers
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   actualApply.d.ts
+|   |   |   |   actualApply.js
+|   |   |   |   applyBind.d.ts
+|   |   |   |   applyBind.js
+|   |   |   |   CHANGELOG.md
+|   |   |   |   functionApply.d.ts
+|   |   |   |   functionApply.js
+|   |   |   |   functionCall.d.ts
+|   |   |   |   functionCall.js
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   reflectApply.d.ts
+|   |   |   |   reflectApply.js
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---call-bound
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---chokidar
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---lib
+|   |   |   |       constants.js
+|   |   |   |       fsevents-handler.js
+|   |   |   |       nodefs-handler.js
+|   |   |   |       
+|   |   |   \---types
+|   |   |           index.d.ts
+|   |   |           
+|   |   +---concat-map
+|   |   |   |   .travis.yml
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.markdown
+|   |   |   |   
+|   |   |   +---example
+|   |   |   |       map.js
+|   |   |   |       
+|   |   |   \---test
+|   |   |           map.js
+|   |   |           
+|   |   +---content-disposition
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---content-type
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---cookie
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       SECURITY.md
+|   |   |       
+|   |   +---cookie-signature
+|   |   |       History.md
+|   |   |       index.js
+|   |   |       package.json
+|   |   |       Readme.md
+|   |   |       
+|   |   +---cors
+|   |   |   |   CONTRIBUTING.md
+|   |   |   |   HISTORY.md
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           index.js
+|   |   |           
+|   |   +---debug
+|   |   |   |   .coveralls.yml
+|   |   |   |   .eslintrc
+|   |   |   |   .npmignore
+|   |   |   |   .travis.yml
+|   |   |   |   CHANGELOG.md
+|   |   |   |   component.json
+|   |   |   |   karma.conf.js
+|   |   |   |   LICENSE
+|   |   |   |   Makefile
+|   |   |   |   node.js
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---src
+|   |   |           browser.js
+|   |   |           debug.js
+|   |   |           index.js
+|   |   |           inspector-log.js
+|   |   |           node.js
+|   |   |           
+|   |   +---depd
+|   |   |   |   History.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   Readme.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |       \---browser
+|   |   |               index.js
+|   |   |               
+|   |   +---destroy
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---dotenv
+|   |   |   |   CHANGELOG.md
+|   |   |   |   config.d.ts
+|   |   |   |   config.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README-es.md
+|   |   |   |   README.md
+|   |   |   |   SECURITY.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           cli-options.js
+|   |   |           env-options.js
+|   |   |           main.d.ts
+|   |   |           main.js
+|   |   |           
+|   |   +---dunder-proto
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   get.d.ts
+|   |   |   |   get.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   set.d.ts
+|   |   |   |   set.js
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           get.js
+|   |   |           index.js
+|   |   |           set.js
+|   |   |           
+|   |   +---ee-first
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---encodeurl
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---es-define-property
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---es-errors
+|   |   |   |   .eslintrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   eval.d.ts
+|   |   |   |   eval.js
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   range.d.ts
+|   |   |   |   range.js
+|   |   |   |   README.md
+|   |   |   |   ref.d.ts
+|   |   |   |   ref.js
+|   |   |   |   syntax.d.ts
+|   |   |   |   syntax.js
+|   |   |   |   tsconfig.json
+|   |   |   |   type.d.ts
+|   |   |   |   type.js
+|   |   |   |   uri.d.ts
+|   |   |   |   uri.js
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---es-object-atoms
+|   |   |   |   .eslintrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   isObject.d.ts
+|   |   |   |   isObject.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   RequireObjectCoercible.d.ts
+|   |   |   |   RequireObjectCoercible.js
+|   |   |   |   ToObject.d.ts
+|   |   |   |   ToObject.js
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---escape-html
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       Readme.md
+|   |   |       
+|   |   +---etag
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---express
+|   |   |   |   History.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   Readme.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |       |   application.js
+|   |   |       |   express.js
+|   |   |       |   request.js
+|   |   |       |   response.js
+|   |   |       |   utils.js
+|   |   |       |   view.js
+|   |   |       |   
+|   |   |       +---middleware
+|   |   |       |       init.js
+|   |   |       |       query.js
+|   |   |       |       
+|   |   |       \---router
+|   |   |               index.js
+|   |   |               layer.js
+|   |   |               route.js
+|   |   |               
+|   |   +---fill-range
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---finalhandler
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       SECURITY.md
+|   |   |       
+|   |   +---forwarded
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---fresh
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---function-bind
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   implementation.js
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       SECURITY.md
+|   |   |   |       
+|   |   |   \---test
+|   |   |           .eslintrc
+|   |   |           index.js
+|   |   |           
+|   |   +---get-intrinsic
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           GetIntrinsic.js
+|   |   |           
+|   |   +---get-proto
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   Object.getPrototypeOf.d.ts
+|   |   |   |   Object.getPrototypeOf.js
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   Reflect.getPrototypeOf.d.ts
+|   |   |   |   Reflect.getPrototypeOf.js
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---glob-parent
+|   |   |       CHANGELOG.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---gopd
+|   |   |   |   .eslintrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   gOPD.d.ts
+|   |   |   |   gOPD.js
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---has-flag
+|   |   |       index.js
+|   |   |       license
+|   |   |       package.json
+|   |   |       readme.md
+|   |   |       
+|   |   +---has-symbols
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   shams.d.ts
+|   |   |   |   shams.js
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |       |   index.js
+|   |   |       |   tests.js
+|   |   |       |   
+|   |   |       \---shams
+|   |   |               core-js.js
+|   |   |               get-own-property-symbols.js
+|   |   |               
+|   |   +---hasown
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   \---.github
+|   |   |           FUNDING.yml
+|   |   |           
+|   |   +---http-errors
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---iceberg-js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---dist
+|   |   |           index.cjs
+|   |   |           index.cjs.map
+|   |   |           index.d.cts
+|   |   |           index.d.ts
+|   |   |           index.mjs
+|   |   |           index.mjs.map
+|   |   |           
+|   |   +---iconv-lite
+|   |   |   |   Changelog.md
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---encodings
+|   |   |   |   |   dbcs-codec.js
+|   |   |   |   |   dbcs-data.js
+|   |   |   |   |   index.js
+|   |   |   |   |   internal.js
+|   |   |   |   |   sbcs-codec.js
+|   |   |   |   |   sbcs-data-generated.js
+|   |   |   |   |   sbcs-data.js
+|   |   |   |   |   utf16.js
+|   |   |   |   |   utf7.js
+|   |   |   |   |   
+|   |   |   |   \---tables
+|   |   |   |           big5-added.json
+|   |   |   |           cp936.json
+|   |   |   |           cp949.json
+|   |   |   |           cp950.json
+|   |   |   |           eucjp.json
+|   |   |   |           gb18030-ranges.json
+|   |   |   |           gbk-added.json
+|   |   |   |           shiftjis.json
+|   |   |   |           
+|   |   |   \---lib
+|   |   |           bom-handling.js
+|   |   |           extend-node.js
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           streams.js
+|   |   |           
+|   |   +---ignore-by-default
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---inherits
+|   |   |       inherits.js
+|   |   |       inherits_browser.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---ipaddr.js
+|   |   |   |   ipaddr.min.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           ipaddr.js
+|   |   |           ipaddr.js.d.ts
+|   |   |           
+|   |   +---is-binary-path
+|   |   |       index.d.ts
+|   |   |       index.js
+|   |   |       license
+|   |   |       package.json
+|   |   |       readme.md
+|   |   |       
+|   |   +---is-extglob
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---is-glob
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---is-number
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---math-intrinsics
+|   |   |   |   .eslintrc
+|   |   |   |   abs.d.ts
+|   |   |   |   abs.js
+|   |   |   |   CHANGELOG.md
+|   |   |   |   floor.d.ts
+|   |   |   |   floor.js
+|   |   |   |   isFinite.d.ts
+|   |   |   |   isFinite.js
+|   |   |   |   isInteger.d.ts
+|   |   |   |   isInteger.js
+|   |   |   |   isNaN.d.ts
+|   |   |   |   isNaN.js
+|   |   |   |   isNegativeZero.d.ts
+|   |   |   |   isNegativeZero.js
+|   |   |   |   LICENSE
+|   |   |   |   max.d.ts
+|   |   |   |   max.js
+|   |   |   |   min.d.ts
+|   |   |   |   min.js
+|   |   |   |   mod.d.ts
+|   |   |   |   mod.js
+|   |   |   |   package.json
+|   |   |   |   pow.d.ts
+|   |   |   |   pow.js
+|   |   |   |   README.md
+|   |   |   |   round.d.ts
+|   |   |   |   round.js
+|   |   |   |   sign.d.ts
+|   |   |   |   sign.js
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   +---constants
+|   |   |   |       maxArrayLength.d.ts
+|   |   |   |       maxArrayLength.js
+|   |   |   |       maxSafeInteger.d.ts
+|   |   |   |       maxSafeInteger.js
+|   |   |   |       maxValue.d.ts
+|   |   |   |       maxValue.js
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---media-typer
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---merge-descriptors
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---methods
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---mime
+|   |   |   |   .npmignore
+|   |   |   |   CHANGELOG.md
+|   |   |   |   cli.js
+|   |   |   |   LICENSE
+|   |   |   |   mime.js
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   types.json
+|   |   |   |   
+|   |   |   \---src
+|   |   |           build.js
+|   |   |           test.js
+|   |   |           
+|   |   +---mime-db
+|   |   |       db.json
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---mime-types
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---minimatch
+|   |   |       LICENSE
+|   |   |       minimatch.js
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---ms
+|   |   |       index.js
+|   |   |       license.md
+|   |   |       package.json
+|   |   |       readme.md
+|   |   |       
+|   |   +---negotiator
+|   |   |   |   HISTORY.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           charset.js
+|   |   |           encoding.js
+|   |   |           language.js
+|   |   |           mediaType.js
+|   |   |           
+|   |   +---nodemon
+|   |   |   |   .prettierrc.json
+|   |   |   |   index.d.ts
+|   |   |   |   jsconfig.json
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---bin
+|   |   |   |       nodemon.js
+|   |   |   |       windows-kill.exe
+|   |   |   |       
+|   |   |   +---doc
+|   |   |   |   \---cli
+|   |   |   |           authors.txt
+|   |   |   |           config.txt
+|   |   |   |           help.txt
+|   |   |   |           logo.txt
+|   |   |   |           options.txt
+|   |   |   |           topics.txt
+|   |   |   |           usage.txt
+|   |   |   |           whoami.txt
+|   |   |   |           
+|   |   |   +---lib
+|   |   |   |   |   index.js
+|   |   |   |   |   nodemon.js
+|   |   |   |   |   spawn.js
+|   |   |   |   |   version.js
+|   |   |   |   |   
+|   |   |   |   +---cli
+|   |   |   |   |       index.js
+|   |   |   |   |       parse.js
+|   |   |   |   |       
+|   |   |   |   +---config
+|   |   |   |   |       command.js
+|   |   |   |   |       defaults.js
+|   |   |   |   |       exec.js
+|   |   |   |   |       index.js
+|   |   |   |   |       load.js
+|   |   |   |   |       
+|   |   |   |   +---help
+|   |   |   |   |       index.js
+|   |   |   |   |       
+|   |   |   |   +---monitor
+|   |   |   |   |       index.js
+|   |   |   |   |       match.js
+|   |   |   |   |       run.js
+|   |   |   |   |       signals.js
+|   |   |   |   |       watch.js
+|   |   |   |   |       
+|   |   |   |   +---rules
+|   |   |   |   |       add.js
+|   |   |   |   |       index.js
+|   |   |   |   |       parse.js
+|   |   |   |   |       
+|   |   |   |   \---utils
+|   |   |   |           bus.js
+|   |   |   |           clone.js
+|   |   |   |           colour.js
+|   |   |   |           index.js
+|   |   |   |           log.js
+|   |   |   |           merge.js
+|   |   |   |           
+|   |   |   \---node_modules
+|   |   |       +---debug
+|   |   |       |   |   LICENSE
+|   |   |       |   |   package.json
+|   |   |       |   |   README.md
+|   |   |       |   |   
+|   |   |       |   \---src
+|   |   |       |           browser.js
+|   |   |       |           common.js
+|   |   |       |           index.js
+|   |   |       |           node.js
+|   |   |       |           
+|   |   |       \---ms
+|   |   |               index.js
+|   |   |               license.md
+|   |   |               package.json
+|   |   |               readme.md
+|   |   |               
+|   |   +---normalize-path
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---object-assign
+|   |   |       index.js
+|   |   |       license
+|   |   |       package.json
+|   |   |       readme.md
+|   |   |       
+|   |   +---object-inspect
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package-support.json
+|   |   |   |   package.json
+|   |   |   |   readme.markdown
+|   |   |   |   test-core-js.js
+|   |   |   |   util.inspect.js
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   +---example
+|   |   |   |       all.js
+|   |   |   |       circular.js
+|   |   |   |       fn.js
+|   |   |   |       inspect.js
+|   |   |   |       
+|   |   |   \---test
+|   |   |       |   bigint.js
+|   |   |       |   circular.js
+|   |   |       |   deep.js
+|   |   |       |   element.js
+|   |   |       |   err.js
+|   |   |       |   fakes.js
+|   |   |       |   fn.js
+|   |   |       |   global.js
+|   |   |       |   has.js
+|   |   |       |   holes.js
+|   |   |       |   indent-option.js
+|   |   |       |   inspect.js
+|   |   |       |   lowbyte.js
+|   |   |       |   number.js
+|   |   |       |   quoteStyle.js
+|   |   |       |   toStringTag.js
+|   |   |       |   undef.js
+|   |   |       |   values.js
+|   |   |       |   
+|   |   |       \---browser
+|   |   |               dom.js
+|   |   |               
+|   |   +---on-finished
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---parseurl
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---path-to-regexp
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       Readme.md
+|   |   |       
+|   |   +---picomatch
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---lib
+|   |   |           constants.js
+|   |   |           parse.js
+|   |   |           picomatch.js
+|   |   |           scan.js
+|   |   |           utils.js
+|   |   |           
+|   |   +---proxy-addr
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---pstree.remy
+|   |   |   |   .travis.yml
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---lib
+|   |   |   |       index.js
+|   |   |   |       tree.js
+|   |   |   |       utils.js
+|   |   |   |       
+|   |   |   \---tests
+|   |   |       |   index.test.js
+|   |   |       |   
+|   |   |       \---fixtures
+|   |   |               index.js
+|   |   |               out1
+|   |   |               out2
+|   |   |               
+|   |   +---qs
+|   |   |   |   .editorconfig
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   LICENSE.md
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   +---dist
+|   |   |   |       qs.js
+|   |   |   |       
+|   |   |   +---lib
+|   |   |   |       formats.js
+|   |   |   |       index.js
+|   |   |   |       parse.js
+|   |   |   |       stringify.js
+|   |   |   |       utils.js
+|   |   |   |       
+|   |   |   \---test
+|   |   |           empty-keys-cases.js
+|   |   |           parse.js
+|   |   |           stringify.js
+|   |   |           utils.js
+|   |   |           
+|   |   +---range-parser
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---raw-body
+|   |   |       index.d.ts
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---readdirp
+|   |   |       index.d.ts
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---safe-buffer
+|   |   |       index.d.ts
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---safer-buffer
+|   |   |       dangerous.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       Porting-Buffer.md
+|   |   |       Readme.md
+|   |   |       safer.js
+|   |   |       tests.js
+|   |   |       
+|   |   +---semver
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   preload.js
+|   |   |   |   range.bnf
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---bin
+|   |   |   |       semver.js
+|   |   |   |       
+|   |   |   +---classes
+|   |   |   |       comparator.js
+|   |   |   |       index.js
+|   |   |   |       range.js
+|   |   |   |       semver.js
+|   |   |   |       
+|   |   |   +---functions
+|   |   |   |       clean.js
+|   |   |   |       cmp.js
+|   |   |   |       coerce.js
+|   |   |   |       compare-build.js
+|   |   |   |       compare-loose.js
+|   |   |   |       compare.js
+|   |   |   |       diff.js
+|   |   |   |       eq.js
+|   |   |   |       gt.js
+|   |   |   |       gte.js
+|   |   |   |       inc.js
+|   |   |   |       lt.js
+|   |   |   |       lte.js
+|   |   |   |       major.js
+|   |   |   |       minor.js
+|   |   |   |       neq.js
+|   |   |   |       parse.js
+|   |   |   |       patch.js
+|   |   |   |       prerelease.js
+|   |   |   |       rcompare.js
+|   |   |   |       rsort.js
+|   |   |   |       satisfies.js
+|   |   |   |       sort.js
+|   |   |   |       valid.js
+|   |   |   |       
+|   |   |   +---internal
+|   |   |   |       constants.js
+|   |   |   |       debug.js
+|   |   |   |       identifiers.js
+|   |   |   |       lrucache.js
+|   |   |   |       parse-options.js
+|   |   |   |       re.js
+|   |   |   |       
+|   |   |   \---ranges
+|   |   |           gtr.js
+|   |   |           intersects.js
+|   |   |           ltr.js
+|   |   |           max-satisfying.js
+|   |   |           min-satisfying.js
+|   |   |           min-version.js
+|   |   |           outside.js
+|   |   |           simplify.js
+|   |   |           subset.js
+|   |   |           to-comparators.js
+|   |   |           valid.js
+|   |   |           
+|   |   +---send
+|   |   |   |   HISTORY.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   SECURITY.md
+|   |   |   |   
+|   |   |   \---node_modules
+|   |   |       +---http-errors
+|   |   |       |       HISTORY.md
+|   |   |       |       index.js
+|   |   |       |       LICENSE
+|   |   |       |       package.json
+|   |   |       |       README.md
+|   |   |       |       
+|   |   |       +---ms
+|   |   |       |       index.js
+|   |   |       |       license.md
+|   |   |       |       package.json
+|   |   |       |       readme.md
+|   |   |       |       
+|   |   |       \---statuses
+|   |   |               codes.json
+|   |   |               HISTORY.md
+|   |   |               index.js
+|   |   |               LICENSE
+|   |   |               package.json
+|   |   |               README.md
+|   |   |               
+|   |   +---serve-static
+|   |   |   |   HISTORY.md
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---node_modules
+|   |   |       +---http-errors
+|   |   |       |       HISTORY.md
+|   |   |       |       index.js
+|   |   |       |       LICENSE
+|   |   |       |       package.json
+|   |   |       |       README.md
+|   |   |       |       
+|   |   |       +---ms
+|   |   |       |       index.js
+|   |   |       |       license.md
+|   |   |       |       package.json
+|   |   |       |       readme.md
+|   |   |       |       
+|   |   |       +---send
+|   |   |       |   |   HISTORY.md
+|   |   |       |   |   index.js
+|   |   |       |   |   LICENSE
+|   |   |       |   |   package.json
+|   |   |       |   |   README.md
+|   |   |       |   |   SECURITY.md
+|   |   |       |   |   
+|   |   |       |   \---node_modules
+|   |   |       |       \---encodeurl
+|   |   |       |               HISTORY.md
+|   |   |       |               index.js
+|   |   |       |               LICENSE
+|   |   |       |               package.json
+|   |   |       |               README.md
+|   |   |       |               
+|   |   |       \---statuses
+|   |   |               codes.json
+|   |   |               HISTORY.md
+|   |   |               index.js
+|   |   |               LICENSE
+|   |   |               package.json
+|   |   |               README.md
+|   |   |               
+|   |   +---setprototypeof
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---side-channel
+|   |   |   |   .editorconfig
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---side-channel-list
+|   |   |   |   .editorconfig
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   list.d.ts
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---side-channel-map
+|   |   |   |   .editorconfig
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---side-channel-weakmap
+|   |   |   |   .editorconfig
+|   |   |   |   .eslintrc
+|   |   |   |   .nycrc
+|   |   |   |   CHANGELOG.md
+|   |   |   |   index.d.ts
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   tsconfig.json
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |       FUNDING.yml
+|   |   |   |       
+|   |   |   \---test
+|   |   |           index.js
+|   |   |           
+|   |   +---simple-update-notifier
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---build
+|   |   |   |       index.d.ts
+|   |   |   |       index.js
+|   |   |   |       
+|   |   |   \---src
+|   |   |           borderedText.ts
+|   |   |           cache.spec.ts
+|   |   |           cache.ts
+|   |   |           getDistVersion.spec.ts
+|   |   |           getDistVersion.ts
+|   |   |           hasNewVersion.spec.ts
+|   |   |           hasNewVersion.ts
+|   |   |           index.spec.ts
+|   |   |           index.ts
+|   |   |           isNpmOrYarn.ts
+|   |   |           types.ts
+|   |   |           
+|   |   +---statuses
+|   |   |       codes.json
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---supports-color
+|   |   |       browser.js
+|   |   |       index.js
+|   |   |       license
+|   |   |       package.json
+|   |   |       readme.md
+|   |   |       
+|   |   +---to-regex-range
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---toidentifier
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---touch
+|   |   |   |   index.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   \---bin
+|   |   |           nodetouch.js
+|   |   |           
+|   |   +---tslib
+|   |   |   |   CopyrightNotice.txt
+|   |   |   |   LICENSE.txt
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   SECURITY.md
+|   |   |   |   tslib.d.ts
+|   |   |   |   tslib.es6.html
+|   |   |   |   tslib.es6.js
+|   |   |   |   tslib.es6.mjs
+|   |   |   |   tslib.html
+|   |   |   |   tslib.js
+|   |   |   |   
+|   |   |   \---modules
+|   |   |           index.d.ts
+|   |   |           index.js
+|   |   |           package.json
+|   |   |           
+|   |   +---type-is
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---undefsafe
+|   |   |   |   .jscsrc
+|   |   |   |   .jshintrc
+|   |   |   |   .travis.yml
+|   |   |   |   example.js
+|   |   |   |   LICENSE
+|   |   |   |   package.json
+|   |   |   |   README.md
+|   |   |   |   
+|   |   |   +---.github
+|   |   |   |   \---workflows
+|   |   |   |           release.yml
+|   |   |   |           
+|   |   |   \---lib
+|   |   |           undefsafe.js
+|   |   |           
+|   |   +---undici-types
+|   |   |       agent.d.ts
+|   |   |       api.d.ts
+|   |   |       balanced-pool.d.ts
+|   |   |       cache-interceptor.d.ts
+|   |   |       cache.d.ts
+|   |   |       client-stats.d.ts
+|   |   |       client.d.ts
+|   |   |       connector.d.ts
+|   |   |       content-type.d.ts
+|   |   |       cookies.d.ts
+|   |   |       diagnostics-channel.d.ts
+|   |   |       dispatcher.d.ts
+|   |   |       env-http-proxy-agent.d.ts
+|   |   |       errors.d.ts
+|   |   |       eventsource.d.ts
+|   |   |       fetch.d.ts
+|   |   |       formdata.d.ts
+|   |   |       global-dispatcher.d.ts
+|   |   |       global-origin.d.ts
+|   |   |       h2c-client.d.ts
+|   |   |       handlers.d.ts
+|   |   |       header.d.ts
+|   |   |       index.d.ts
+|   |   |       interceptors.d.ts
+|   |   |       LICENSE
+|   |   |       mock-agent.d.ts
+|   |   |       mock-call-history.d.ts
+|   |   |       mock-client.d.ts
+|   |   |       mock-errors.d.ts
+|   |   |       mock-interceptor.d.ts
+|   |   |       mock-pool.d.ts
+|   |   |       package.json
+|   |   |       patch.d.ts
+|   |   |       pool-stats.d.ts
+|   |   |       pool.d.ts
+|   |   |       proxy-agent.d.ts
+|   |   |       readable.d.ts
+|   |   |       README.md
+|   |   |       retry-agent.d.ts
+|   |   |       retry-handler.d.ts
+|   |   |       snapshot-agent.d.ts
+|   |   |       util.d.ts
+|   |   |       utility.d.ts
+|   |   |       webidl.d.ts
+|   |   |       websocket.d.ts
+|   |   |       
+|   |   +---unpipe
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---utils-merge
+|   |   |       .npmignore
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   +---vary
+|   |   |       HISTORY.md
+|   |   |       index.js
+|   |   |       LICENSE
+|   |   |       package.json
+|   |   |       README.md
+|   |   |       
+|   |   \---ws
+|   |       |   browser.js
+|   |       |   index.js
+|   |       |   LICENSE
+|   |       |   package.json
+|   |       |   README.md
+|   |       |   wrapper.mjs
+|   |       |   
+|   |       \---lib
+|   |               buffer-util.js
+|   |               constants.js
+|   |               event-target.js
+|   |               extension.js
+|   |               limiter.js
+|   |               permessage-deflate.js
+|   |               receiver.js
+|   |               sender.js
+|   |               stream.js
+|   |               subprotocol.js
+|   |               validation.js
+|   |               websocket-server.js
+|   |               websocket.js
+|   |               
+|   \---routes
+|           consultas.js
+|           users.js
+|           
+\---frontend
+    |   index.html
+    |   
+    +---css
+    |       cadastro.css
+    |       confirmacao.css
+    |       consultas.css
+    |       index.css
+    |       login.css
+    |       style.css
+    |       
+    +---html
+    |       cadastro.html
+    |       confirmacao.html
+    |       consultas.html
+    |       login.html
+    |       
+    \---js
+            cadastro.js
+            confirmacao.js
+            consultas.js
+            login.js
+            
+
+=== CONTEÚDO DOS ARQUIVOS HTML / CSS / JS ===
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\backend\controllers\consultasController.js
+----------------------------------------
+import { supabase } from "../supabaseClient.js";
+
+export async function getAllConsultas(req, res) {
+  const { data, error } = await supabase.from("consultas").select("*");
+  if (error) return res.status(500).json({ error: error.message });
+  res.json(data);
+}
+
+export async function getConsultasByUsuario(req, res) {
+  const { id } = req.params;
+  const { data, error } = await supabase.from("consultas").select("*").eq("usuario_id", id);
+  if (error) return res.status(500).json({ error: error.message });
+  res.json(data);
+}
+
+export async function createConsulta(req, res) {
+  const { usuario_id, medico, data, hora, local } = req.body;
+  const { data: result, error } = await supabase.from("consultas").insert([{ usuario_id, medico, data, hora, local }]).select().single();
+  if (error) return res.status(400).json({ error: error.message });
+  res.json(result);
+}
+
+export async function updateConsulta(req, res) {
+  const { id } = req.params;
+  const { medico, data, hora, local } = req.body;
+  const { data: result, error } = await supabase.from("consultas").update({ medico, data, hora, local }).eq("id", id).select().single();
+  if (error) return res.status(400).json({ error: error.message });
+  res.json(result);
+}
+
+export async function deleteConsulta(req, res) {
+  const { id } = req.params;
+  const { error } = await supabase.from("consultas").delete().eq("id", id);
+  if (error) return res.status(400).json({ error: error.message });
+  res.json({ message: "Consulta removida" });
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\backend\controllers\usersController.js
+----------------------------------------
+import { supabase } from "../supabaseClient.js";
+
+export async function getAllUsers(req, res) {
+  const { data, error } = await supabase.from("users").select("*");
+  if (error) return res.status(500).json({ error: error.message });
+  res.json(data);
+}
+
+export async function createUser(req, res) {
+  const { nome, endereco, dataNascimento, datanascimento, email, senha } = req.body;
+  const dt = dataNascimento ?? datanascimento ?? null;
+  if (!nome || !email || !senha || !dt)
+    return res.status(400).json({ error: "Campos obrigatórios ausentes (nome, email, senha, dataNascimento)." });
+
+  const insertObj = { nome, endereco: endereco ?? null, datanascimento: dt, email, senha };
+  const { data, error } = await supabase.from("users").insert([insertObj]).select().single();
+  if (error) return res.status(400).json({ error: error.message });
+  res.json(data);
+}
+
+export async function loginUser(req, res) {
+  const { email, senha } = req.body;
+  const { data, error } = await supabase.from("users").select("*").eq("email", email).eq("senha", senha).single();
+  if (error || !data) return res.status(401).json({ error: "Credenciais inválidas" });
+  res.json(data);
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\backend\routes\consultas.js
+----------------------------------------
+import express from "express";
+import {
+  getAllConsultas,
+  getConsultasByUsuario,
+  createConsulta,
+  updateConsulta,
+  deleteConsulta
+} from "../controllers/consultasController.js";
+
+export const router = express.Router();
+
+router.get("/", getAllConsultas);
+router.get("/usuario/:id", getConsultasByUsuario);
+router.post("/", createConsulta);
+router.put("/:id", updateConsulta);
+router.delete("/:id", deleteConsulta);
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\backend\routes\users.js
+----------------------------------------
+// routes/users.js
+import { Router } from "express";
+import { supabase } from "../supabaseClient.js";
+
+export const router = Router();
+
+// GET - listar todos os usuários
+router.get("/", async (req, res) => {
+  const { data, error } = await supabase.from("users").select("*");
+
+  if (error) return res.status(500).json({ error: error.message });
+  res.json(data);
+});
+
+// POST - criar novo usuário
+router.post("/", async (req, res) => {
+  const { nome, endereco, dataNascimento, email, senha } = req.body;
+
+  if (!nome || !email || !senha || !dataNascimento) {
+    return res.status(400).json({
+      error: "Campos obrigatórios ausentes (nome, email, senha, dataNascimento).",
+    });
+  }
+
+  const { data, error } = await supabase
+    .from("users")
+    .insert([{ nome, endereco, dataNascimento, email, senha }])
+    .select()
+    .single();
+
+  if (error) return res.status(500).json({ error: error.message });
+
+  res.json(data);
+});
+
+// PUT - atualizar usuário
+router.put("/:id", async (req, res) => {
+  const { id } = req.params;
+  const campos = req.body;
+
+  const { data, error } = await supabase
+    .from("users")
+    .update(campos)
+    .eq("id", id)
+    .select()
+    .single();
+
+  if (error) return res.status(500).json({ error: error.message });
+
+  res.json(data);
+});
+
+// DELETE - remover usuário
+router.delete("/:id", async (req, res) => {
+  const { id } = req.params;
+
+  const { error } = await supabase
+    .from("users")
+    .delete()
+    .eq("id", id);
+
+  if (error) return res.status(500).json({ error: error.message });
+
+  res.json({ message: "Usuário removido" });
+});
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\backend\server.js
+----------------------------------------
+// server.js
+import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+import { router as usersRouter } from "./routes/users.js";
+import { router as consultasRouter } from "./routes/consultas.js";
+
+dotenv.config();
+
+const app = express();
+
+// Permitir requisições da web (Render + front)
+app.use(cors({
+  origin: "*", // você pode restringir depois
+}));
+
+app.use(express.json());
+
+// Rota de teste
+app.get("/", (req, res) => {
+  res.send("Servidor ONLINE! 🚀");
+});
+
+// Rotas da API
+app.use("/users", usersRouter);
+app.use("/consultas", consultasRouter);
+
+// Porta do Render OU local
+const PORT = process.env.PORT || 3030;
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
+  console.log(`Acesse: http://localhost:${PORT}`);
+});
+
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\backend\supabaseClient.js
+----------------------------------------
+import { createClient } from '@supabase/supabase-js';
+import dotenv from 'dotenv';
+dotenv.config();
+
+export const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\css\cadastro.css
+----------------------------------------
+.container h1 {
+    color: #2c3e50;
+}
+
+.container h2 {
+    color: #34495e;
+    font-size: 15px;
+    text-align: center;
+}
+
+.acoesForm button[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+}
+
+.acoesForm button[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.term-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\css\confirmacao.css
+----------------------------------------
+#cartaoConsulta {
+    background-color: #fef9f3;
+    border: 1px solid #f7c873;
+    padding: 14px;
+    border-radius: 10px;
+    color: #2c3e50;
+    margin-bottom: 14px;
+}
+
+.acoesConfirmacao {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+#botaoCancelar {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#botaoReagendar {
+    background-color: #2980b9;
+    color: white;
+}
+
+#areaReagendar {
+    display: none;
+    margin-top: 10px;
+}
+
+#areaReagendar input[type="date"],
+#areaReagendar input[type="time"] {
+    width: calc(50% - 8px);
+    display: inline-block;
+    margin-right: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#salvarReagendamento {
+    background-color: #27ae60;
+    color: white;
+    margin-top: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+@media (max-width: 480px) {
+
+    #areaReagendar input[type="date"],
+    #areaReagendar input[type="time"] {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 6px;
+    }
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\css\consultas.css
+----------------------------------------
+.agendar h2 {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+.lista h3 {
+    color: #2c3e50;
+    margin-top: 14px;
+}
+
+#listaConsultasAgendadas li {
+    background-color: #ecf0f1;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+#listaConsultasAgendadas li button {
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+
+#listaConsultasAgendadas li button:nth-child(2) {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#listaConsultasAgendadas li button:nth-child(1) {
+    background-color: #2980b9;
+    color: white;
+}
+
+#botaoSair {
+    margin-top: 14px;
+    width: 100%;
+    background-color: #7f8c8d;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+
+.lista-consultas li {
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 5px solid #4CAF50;
+    list-style: none;
+}
+
+.lista-consultas li.reagendado {
+    border-left-color: #f9a825;
+}
+
+.lista-consultas li.cancelado {
+    border-left-color: #d32f2f;
+    opacity: .7;
+}
+
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\css\index.css
+----------------------------------------
+.container h1 {
+    font-size: 28px;
+}
+
+.container h2 {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.acoes button {
+    background: #2980b9;
+    color: #fff;
+    min-width: 160px;
+    font-size: 16px;
+}
+
+.acoes button:nth-child(2) {
+    background: #27ae60;
+}
+
+.acoes button:hover {
+    transform: translateY(-2px);
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\css\login.css
+----------------------------------------
+.container h1,
+.container h2 {
+    color: #2c3e50;
+}
+
+.acoesForm button[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+}
+
+.acoesForm button[type="reset"] {
+    background-color: #7f8c8d;
+    color: white;
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\css\style.css
+----------------------------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    color: #1f1f1f;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* container padrão */
+.container {
+    background-color: #ffffff;
+    padding: 30px 28px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 420px;
+    max-width: 95%;
+}
+
+/* tipografia global */
+h1 {
+    text-align: center;
+    font-size: 26px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+/* links globais */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* inputs globais */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #2980b9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.4);
+}
+
+/* botões globais */
+button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* layouts flexíveis */
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    justify-content: flex-start;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\html\cadastro.html
+----------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - MedCheck</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <h2>Preencha seus dados para continuar!</h2>
+
+        <form id="formCadastro">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Bairro, número da casa" required>
+
+            <label for="dataNascimento">Data de nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seu.email@gmail.com" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma senha forte" required>
+
+            <label for="confirmarSenha">Confirme a senha:</label>
+            <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Escreva novamente" required>
+
+            <div class="acoesForm">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Recomeçar</button>
+            </div>
+        </form>
+
+        <div id="mensagemErro" style="display:none; color:red; margin-bottom:10px;"></div>
+
+        <p>Já tem conta? <a href="login.html">Acesse aqui</a></p>
+        <p><a href="../index.html">Voltar para a página inicial</a></p>
+    </div>
+
+    <script src="../js/cadastro.js"></script>
+</body>
+
+</html>
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\html\confirmacao.html
+----------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação - MedCheck</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/confirmacao.css">
+
+    <script>
+        const API_BASE_GLOBAL = "https://medcheck-backend-dbbr.onrender.com";
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Detalhes da Consulta</h1>
+
+        <div id="mensagemConfirmacao" class="mensagem"></div>
+
+        <div id="cartaoConsulta">
+            <p><strong>Médico:</strong> <span id="confMedico"></span></p>
+            <p><strong>Data:</strong> <span id="confData"></span></p>
+            <p><strong>Hora:</strong> <span id="confHora"></span></p>
+            <p><strong>Local:</strong> <span id="confLocal"></span></p>
+        </div>
+
+        <div class="acoesConfirmacao">
+            <button id="botaoReagendar">Reagendar</button>
+            <button id="botaoCancelar">Cancelar Consulta</button>
+        </div>
+
+        <div id="areaReagendar" style="display: none;">
+            <h3>Reagendar Consulta</h3>
+
+            <label for="novaData">Nova data:</label>
+            <input type="date" id="novaData">
+
+            <label for="novaHora">Nova hora:</label>
+            <input type="time" id="novaHora">
+
+            <button id="salvarReagendamento">Salvar Atualização</button>
+        </div>
+
+        <a href="consultas.html">Voltar para Consultas</a>
+        <p><a href="../index.html">Voltar à página inicial</a></p>
+    </div>
+
+    <script src="../js/confirmacao.js"></script>
+</body>
+
+</html>
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\html\consultas.html
+----------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas - MedCheck</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/consultas.css">
+
+    <script>
+        const API_BASE_GLOBAL = "https://medcheck-backend-dbbr.onrender.com";
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Minhas Consultas</h1>
+        <div id="infoUsuario"></div>
+
+        <div id="mensagem" class="mensagem"></div>
+
+        <div class="agendar">
+            <h2>Agendar nova consulta</h2>
+
+            <form id="formConsulta">
+                <label for="medico">Médico:</label>
+                <input type="text" id="medico" required>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" required>
+
+                <div class="acoesForm">
+                    <button type="submit">Agendar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="lista">
+            <h3>Consultas Agendadas</h3>
+            <p id="statusCarregando">Carregando consultas...</p>
+            <ul id="listaConsultasAgendadas"></ul>
+        </div>
+
+        <button id="botaoSair">Sair</button>
+        <p><a href="../index.html">Voltar para a página inicial</a></p>
+    </div>
+
+    <script src="../js/consultas.js"></script>
+</body>
+
+</html>
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\html\login.html
+----------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - MedCheck</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <script>
+        const API_BASE_GLOBAL = "https://medcheck-backend-dbbr.onrender.com";
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <h2>Informe seus dados para acessar</h2>
+
+        <div id="mensagemLogin" class="mensagem"></div>
+
+        <form id="formLogin">
+            <label for="emailLogin">E-mail:</label>
+            <input type="email" id="emailLogin" placeholder="seu.email@gmail.com" required>
+
+            <label for="senhaLogin">Senha:</label>
+            <input type="password" id="senhaLogin" placeholder="Sua senha" required>
+
+            <div class="acoesForm">
+                <button type="submit">Entrar</button>
+                <button type="reset">Recomeçar</button>
+            </div>
+        </form>
+
+        <p>Não tem conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
+        <p><a href="../index.html">Voltar à página inicial</a></p>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\js\cadastro.js
+----------------------------------------
+// ------------------------------------------------------
+// cadastro.js — versão revisada e melhorada
+// ------------------------------------------------------
+
+const API_BASE = (typeof API_BASE_GLOBAL !== "undefined")
+    ? API_BASE_GLOBAL
+    : "http://localhost:3030";
+
+// Seleção do formulário
+const formCadastro = document.getElementById("formCadastro");
+
+formCadastro.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    // Captura dos campos
+    const nome = document.getElementById("nome").value.trim();
+    const endereco = document.getElementById("endereco").value.trim();
+    const dataNascimento = document.getElementById("dataNascimento").value;
+    const email = document.getElementById("email").value.trim();
+    const senha = document.getElementById("senha").value;
+    const confirmarSenha = document.getElementById("confirmarSenha").value;
+
+    // Validações básicas
+    if (!nome || !endereco || !dataNascimento || !email || !senha) {
+        alert("Por favor, preencha todos os campos.");
+        return;
+    }
+
+    if (senha.length < 6) {
+        alert("A senha deve ter pelo menos 6 caracteres.");
+        return;
+    }
+
+    if (senha !== confirmarSenha) {
+        alert("As senhas não coincidem!");
+        return;
+    }
+
+    // Dados do usuário
+    const usuario = {
+        nome,
+        endereco,
+        dataNascimento,
+        email,
+        senha
+    };
+
+    // --------------------------
+    // TENTATIVA COM BACKEND
+    // --------------------------
+    try {
+        const resp = await fetch(`${API_BASE}/users`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(usuario)
+        });
+
+        if (resp.ok) {
+            alert("Cadastro realizado com sucesso!");
+            formCadastro.reset();
+            window.location.href = "login.html";
+            return;
+        } else {
+            const err = await resp.json().catch(() => null);
+            console.warn("Erro do backend:", err);
+            alert(err?.message || "Erro ao cadastrar no servidor. Salvando localmente.");
+        }
+    } catch (erro) {
+        console.warn("Falha de comunicação com backend:", erro);
+        alert("Não foi possível comunicar com o servidor. Salvando localmente.");
+    }
+
+    // --------------------------
+    // FALLBACK LOCAL (LocalStorage)
+    // --------------------------
+    let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+
+    // Evita duplicidade pelo email
+    if (usuarios.some(u => u.email === email)) {
+        alert("Este e-mail já está cadastrado localmente!");
+        return;
+    }
+
+    usuarios.push(usuario);
+    localStorage.setItem("usuarios", JSON.stringify(usuarios));
+
+    alert("Cadastro realizado localmente!");
+    formCadastro.reset();
+    window.location.href = "login.html";
+});
+
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\js\confirmacao.js
+----------------------------------------
+const API_BASE = (typeof API_BASE_GLOBAL !== "undefined") ? API_BASE_GLOBAL : "http://localhost:3030";
+
+const idConsulta = localStorage.getItem("consultaSelecionada");
+const usuario = JSON.parse(localStorage.getItem("usuarioLogado"));
+
+if (!usuario || !idConsulta) {
+    alert("Nenhuma consulta selecionada.");
+    window.location.href = "consultas.html";
+}
+
+const confMedico = document.getElementById("confMedico");
+const confData = document.getElementById("confData");
+const confHora = document.getElementById("confHora");
+const confLocal = document.getElementById("confLocal");
+
+let consultaAtual = null;
+
+async function carregarConsulta() {
+    try {
+        const resp = await fetch(`${API_BASE}/consultas/detalhe/${idConsulta}`);
+        if (resp.ok) consultaAtual = await resp.json();
+    } catch (err) {
+        console.warn("Backend indisponível");
+    }
+
+    if (!consultaAtual) {
+        const locais = JSON.parse(localStorage.getItem("consultas")) || [];
+        consultaAtual = locais.find(c => Number(c.id) === Number(idConsulta));
+    }
+
+    if (!consultaAtual) {
+        alert("Erro ao carregar consulta.");
+        window.location.href = "consultas.html";
+        return;
+    }
+
+    confMedico.textContent = consultaAtual.medico;
+    confData.textContent = consultaAtual.data;
+    confHora.textContent = consultaAtual.hora;
+    confLocal.textContent = consultaAtual.local || "Clínica Central";
+}
+
+carregarConsulta();
+
+// REAGENDAR
+document.getElementById("botaoReagendar").addEventListener("click", () => {
+    document.getElementById("areaReagendar").style.display = "block";
+});
+
+document.getElementById("salvarReagendamento").addEventListener("click", async () => {
+    const novaData = document.getElementById("novaData").value;
+    const novaHora = document.getElementById("novaHora").value;
+
+    const atualizada = {
+        ...consultaAtual,
+        data: novaData,
+        hora: novaHora,
+        usuario_id: usuario.id
+    };
+
+    try {
+        const resp = await fetch(`${API_BASE}/consultas/${consultaAtual.id}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(atualizada)
+        });
+
+        if (resp.ok) {
+            alert("Consulta reagendada!");
+            return window.location.reload();
+        }
+    } catch (err) {
+        console.warn("Backend indisponível, salvando offline");
+    }
+
+    let locais = JSON.parse(localStorage.getItem("consultas")) || [];
+    const idx = locais.findIndex(c => Number(c.id) === Number(consultaAtual.id));
+    if (idx !== -1) locais[idx] = atualizada;
+
+    localStorage.setItem("consultas", JSON.stringify(locais));
+
+    alert("Consulta reagendada offline.");
+    window.location.reload();
+});
+
+// CANCELAR
+document.getElementById("botaoCancelar").addEventListener("click", async () => {
+    if (!confirm("Deseja cancelar?")) return;
+
+    try {
+        const resp = await fetch(`${API_BASE}/consultas/${consultaAtual.id}`, {
+            method: "DELETE"
+        });
+
+        if (resp.ok) {
+            alert("Consulta cancelada!");
+            return window.location.href = "consultas.html";
+        }
+    } catch (err) {
+        console.warn("Backend indisponível, apagando local");
+    }
+
+    let locais = JSON.parse(localStorage.getItem("consultas")) || [];
+    locais = locais.filter(c => Number(c.id) !== Number(consultaAtual.id));
+    localStorage.setItem("consultas", JSON.stringify(locais));
+
+    alert("Consulta cancelada offline.");
+    window.location.href = "consultas.html";
+});
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\js\consultas.js
+----------------------------------------
+const API_BASE = (typeof API_BASE_GLOBAL !== "undefined") ? API_BASE_GLOBAL : "http://localhost:3030";
+
+const usuarioLogado = JSON.parse(localStorage.getItem("usuarioLogado"));
+const infoUsuario = document.getElementById("infoUsuario");
+const listaConsultasAgendadas = document.getElementById("listaConsultasAgendadas");
+const formConsulta = document.getElementById("formConsulta");
+
+if (!usuarioLogado) {
+    alert("Você precisa estar logado.");
+    window.location.href = "login.html";
+}
+
+infoUsuario.innerHTML = `<p>Olá, <strong>${usuarioLogado.nome}</strong></p>`;
+
+async function carregarConsultas() {
+    listaConsultasAgendadas.innerHTML = "";
+
+    try {
+        const resp = await fetch(`${API_BASE}/consultas/${usuarioLogado.id}`);
+
+        if (resp.ok) {
+            const consultas = await resp.json();
+
+            consultas.forEach(c => {
+                const li = document.createElement("li");
+                li.innerHTML = `
+                    <strong>${c.medico}</strong><br>
+                    ${c.data} às ${c.hora}<br>
+                    <button onclick="abrir(${c.id})">Abrir</button>
+                `;
+                listaConsultasAgendadas.appendChild(li);
+            });
+
+            return;
+        }
+    } catch (err) {
+        console.warn("Backend offline, modo fallback");
+    }
+
+    // MODO OFFLINE
+    const locais = JSON.parse(localStorage.getItem("consultas")) || [];
+    const minhas = locais.filter(c => c.usuario_id === usuarioLogado.id);
+
+    minhas.forEach(c => {
+        const li = document.createElement("li");
+        li.innerHTML = `
+            <strong>${c.medico}</strong><br>
+            ${c.data} às ${c.hora}<br>
+            <button onclick="abrir(${c.id})">Abrir</button>
+        `;
+        listaConsultasAgendadas.appendChild(li);
+    });
+}
+
+carregarConsultas();
+
+formConsulta.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const consulta = {
+        usuario_id: usuarioLogado.id,  // CORRIGIDO
+        medico: document.getElementById("medico").value,
+        data: document.getElementById("data").value,
+        hora: document.getElementById("hora").value,
+        local: "Clínica"
+    };
+
+    try {
+        const resp = await fetch(`${API_BASE}/consultas`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(consulta)
+        });
+
+        if (resp.ok) {
+            alert("Consulta agendada!");
+            return carregarConsultas();
+        }
+    } catch (err) {
+        console.warn("Erro no backend, salvando offline");
+    }
+
+    // MODO OFFLINE
+    let locais = JSON.parse(localStorage.getItem("consultas")) || [];
+    consulta.id = Date.now();
+    locais.push(consulta);
+    localStorage.setItem("consultas", JSON.stringify(locais));
+
+    alert("Consulta salva offline.");
+    carregarConsultas();
+});
+
+function abrir(id) {
+    localStorage.setItem("consultaSelecionada", id);
+    window.location.href = "confirmacao.html";
+}
+
+document.getElementById("botaoSair").addEventListener("click", () => {
+    localStorage.removeItem("usuarioLogado");
+    window.location.href = "login.html";
+});
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\js\login.js
+----------------------------------------
+const API_BASE = (typeof API_BASE_GLOBAL !== "undefined") ? API_BASE_GLOBAL : "http://localhost:3030";
+
+const formLogin = document.getElementById("formLogin");
+
+formLogin.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const email = document.getElementById("emailLogin").value.trim();
+    const senha = document.getElementById("senhaLogin").value;
+
+    const credenciais = { email, senha };
+
+    try {
+        const resp = await fetch(`${API_BASE}/users/login`, { // corrigido
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(credenciais)
+        });
+
+        if (resp.ok) {
+            const data = await resp.json();
+            alert("Login efetuado com sucesso!");
+
+            localStorage.setItem("usuarioLogado", JSON.stringify(data));
+            window.location.href = "consultas.html";
+            return;
+        }
+    } catch (err) {
+        console.warn("Backend indisponível:", err);
+    }
+
+    alert("Erro no login");
+});
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\frontend\index.html
+----------------------------------------
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MedCheck</title>
+
+  <script>
+    const API_BASE_GLOBAL = "https://medcheck-backend-dbbr.onrender.com"; 
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Bem-vindo ao MedCheck!</h1>
+    <h2>Escolha uma opção:</h2>
+
+    <div class="acoes">
+      <a href="html/cadastro.html"><button>Cadastrar</button></a>
+      <a href="html/login.html"><button>Já tenho uma conta</button></a>
+    </div>
+  </div>
+</body>
+</html>
+
+
