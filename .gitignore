@@ -32,9 +32,9 @@ out/
 # =========================================
 #   AMBIENTE / SEGREDOS
 # =========================================
-.env
-.env.*
-!.env.example
+#.env
+#.env.*
+#!.env.example
 
 # =========================================
 #   PYTHON (para API ou scripts)
