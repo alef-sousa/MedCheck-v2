@@ -7,6 +7,8 @@ import {
 
 export const router = express.Router();
 
+app.use(express.json())
+
 // GET todos os usuários
 router.get("/", getAllUsers);
 
