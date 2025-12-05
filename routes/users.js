@@ -15,4 +15,4 @@ router.post("/", createUser);
 // POST login
 router.post("/login", loginUser);
 
-export default router;
+export { router };
