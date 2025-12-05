@@ -5,10 +5,7 @@ import {
   loginUser
 } from "../controllers/usersController.js";
 
-export const router = express.Router();
-
-app.use(express.json())
-
+const router = express.Router();
 // GET todos os usuários
 router.get("/", getAllUsers);
 
