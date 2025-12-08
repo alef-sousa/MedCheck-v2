@@ -209,6 +209,3 @@ DELETE /consultas/:id
 * Consultas totalmente funcionais
 * Projeto compatível com offline pelo fallback localStorage
 
----
-
-Se quiser, posso gerar também a **versão PRO** do README com imagens, badges e GIFs.
