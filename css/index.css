@@ -1,0 +1,23 @@
+.container h1 {
+    font-size: 28px;
+}
+
+.container h2 {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.acoes button {
+    background: #2980b9;
+    color: #fff;
+    min-width: 160px;
+    font-size: 16px;
+}
+
+.acoes button:nth-child(2) {
+    background: #27ae60;
+}
+
+.acoes button:hover {
+    transform: translateY(-2px);
+}

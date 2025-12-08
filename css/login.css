@@ -1,0 +1,14 @@
+.container h1,
+.container h2 {
+    color: #2c3e50;
+}
+
+.acoesForm button[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+}
+
+.acoesForm button[type="reset"] {
+    background-color: #7f8c8d;
+    color: white;
+}

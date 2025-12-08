@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas - MedCheck</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/consultas.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Minhas consultas</h1>
+        <div id="infoUsuario"></div>
+
+        <div class="agendar">
+            <h2>Agendar nova consulta</h2>
+            <form id="formConsulta">
+                <label for="medico">Médico:</label>
+                <input type="text" id="medico" required>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" required>
+
+                <div class="acoesForm">
+                    <button type="submit">Agendar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="lista">
+            <h3>Consultas agendadas</h3>
+            <ul id="listaConsultasAgendadas"></ul>
+        </div>
+
+        <button id="botaoSair">Sair</button>
+        <p><a href="../index.html">Voltar para a página inicial</a></p>
+    </div>
+
+    <script src="../js/consultas.js"></script>
+</body>
+
+</html>

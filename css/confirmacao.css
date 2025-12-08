@@ -1,0 +1,57 @@
+#cartaoConsulta {
+    background-color: #fef9f3;
+    border: 1px solid #f7c873;
+    padding: 14px;
+    border-radius: 10px;
+    color: #2c3e50;
+    margin-bottom: 14px;
+}
+
+.acoesConfirmacao {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+#botaoCancelar {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#botaoReagendar {
+    background-color: #2980b9;
+    color: white;
+}
+
+#areaReagendar {
+    display: none;
+    margin-top: 10px;
+}
+
+#areaReagendar input[type="date"],
+#areaReagendar input[type="time"] {
+    width: calc(50% - 8px);
+    display: inline-block;
+    margin-right: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#salvarReagendamento {
+    background-color: #27ae60;
+    color: white;
+    margin-top: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+@media (max-width: 480px) {
+
+    #areaReagendar input[type="date"],
+    #areaReagendar input[type="time"] {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 6px;
+    }
+}

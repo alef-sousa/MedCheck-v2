@@ -1,0 +1,29 @@
+{
+  "name": "backend-consultas",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.86.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "nodemon": "^3.1.11"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alef-sousa/MedCheck-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alef-sousa/MedCheck-v2/issues"
+  },
+  "homepage": "https://github.com/alef-sousa/MedCheck-v2#readme"
+}
