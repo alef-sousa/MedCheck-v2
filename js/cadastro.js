@@ -7,7 +7,7 @@ formCadastro.addEventListener("submit", async function (e) {
 
     const nome = document.getElementById("nome").value.trim();
     const endereco = document.getElementById("endereco").value.trim();
-    const dataNascimento = document.getElementById("dataNascimento").value;
+    const datanascimento = document.getElementById("datanascimento").value;
     const email = document.getElementById("email").value.trim();
     const senha = document.getElementById("senha").value;
     const confirmarSenha = document.getElementById("confirmarSenha").value;
@@ -17,7 +17,7 @@ formCadastro.addEventListener("submit", async function (e) {
         return;
     }
 
-    const usuario = { nome, endereco, dataNascimento, email, senha };
+    const usuario = { nome, endereco, datanascimento, email, senha };
 
     try {
         const resp = await fetch(`${API_BASE}/users`, {

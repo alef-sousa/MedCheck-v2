@@ -1,0 +1,1213 @@
+=== ÁRVORE DE DIRETÓRIOS ===
+Listagem de caminhos de pasta para o volume Windows10
+O número de série do volume é 000000D6 E43B:2936
+C:\USERS\ALYSSON\DOCUMENTS\MEDCHECK-V2
+|   .env
+|   .gitignore
+|   exportacao_projeto.txt
+|   index.html
+|   package-lock.json
+|   package.json
+|   README.md
+|   server.js
+|   supabaseClient.js
+|   
++---controllers
+|       consultasController.js
+|       usersController.js
+|       
++---css
+|       cadastro.css
+|       confirmacao.css
+|       consultas.css
+|       index.css
+|       login.css
+|       style.css
+|       
++---html
+|       cadastro.html
+|       confirmacao.html
+|       consultas.html
+|       login.html
+|       
++---js
+|       cadastro.js
+|       confirmacao.js
+|       consultas.js
+|       login.js
+|       
+\---routes
+        consultas.js
+        users.js
+        
+
+=== CONTEÚDO DOS ARQUIVOS HTML / CSS / JS ===
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\controllers\consultasController.js
+----------------------------------------
+import { supabase } from "../supabaseClient.js";
+
+// GET /consultas
+export async function getAllConsultas(req, res) {
+    const { data, error } = await supabase.from("consultas").select("*");
+    if (error) return res.status(500).json({ error: error.message });
+    res.json(data);
+}
+
+// GET /consultas/usuario/:id
+export async function getConsultasByUsuario(req, res) {
+    const { id } = req.params;
+
+    const { data, error } = await supabase
+        .from("consultas")
+        .select("*")
+        .eq("usuario_id", id);
+
+    if (error) return res.status(500).json({ error: error.message });
+
+    res.json(data);
+}
+
+// POST /consultas
+export async function createConsulta(req, res) {
+    const { usuario_id, medico, data, hora, local } = req.body;
+
+    const { data: result, error } = await supabase
+        .from("consultas")
+        .insert([{ usuario_id, medico, data, hora, local }])
+        .select()
+        .single();
+
+    if (error) return res.status(400).json({ error: error.message });
+
+    res.json(result);
+}
+
+// PUT /consultas/:id
+export async function updateConsulta(req, res) {
+    const { id } = req.params;
+    const { medico, data, hora, local } = req.body;
+
+    const { data: result, error } = await supabase
+        .from("consultas")
+        .update({ medico, data, hora, local })
+        .eq("id", id)
+        .select()
+        .single();
+
+    if (error) return res.status(400).json({ error: error.message });
+
+    res.json(result);
+}
+
+// DELETE /consultas/:id
+export async function deleteConsulta(req, res) {
+    const { id } = req.params;
+
+    const { error } = await supabase
+        .from("consultas")
+        .delete()
+        .eq("id", id);
+
+    if (error) return res.status(400).json({ error: error.message });
+
+    res.json({ message: "Consulta removida" });
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\controllers\usersController.js
+----------------------------------------
+import { supabase } from "../supabaseClient.js";
+
+// GET /users
+export async function getAllUsers(req, res) {
+    const { data, error } = await supabase.from("users").select("*");
+    if (error) return res.status(500).json({ error: error.message });
+    res.json(data);
+}
+
+// POST /users – cadastro
+export async function createUser(req, res) {
+    const { nome, endereco, dataNascimento, email, senha } = req.body;
+
+    const { data, error } = await supabase
+        .from("users")
+        .insert([{ nome, endereco, dataNascimento, email, senha }])
+        .select()
+        .single();
+
+    if (error) return res.status(400).json({ error: error.message });
+
+    res.json(data);
+}
+
+// POST /users/login
+export async function loginUser(req, res) {
+    const { email, senha } = req.body;
+
+    const { data, error } = await supabase
+        .from("users")
+        .select("*")
+        .eq("email", email)
+        .eq("senha", senha)
+        .single();
+
+    if (error || !data)
+        return res.status(401).json({ error: "Credenciais inválidas" });
+
+    res.json(data);
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\css\cadastro.css
+----------------------------------------
+.container h1 {
+    color: #2c3e50;
+}
+
+.container h2 {
+    color: #34495e;
+    font-size: 15px;
+    text-align: center;
+}
+
+.acoesForm button[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+}
+
+.acoesForm button[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.term-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\css\confirmacao.css
+----------------------------------------
+#cartaoConsulta {
+    background-color: #fef9f3;
+    border: 1px solid #f7c873;
+    padding: 14px;
+    border-radius: 10px;
+    color: #2c3e50;
+    margin-bottom: 14px;
+}
+
+.acoesConfirmacao {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+#botaoCancelar {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#botaoReagendar {
+    background-color: #2980b9;
+    color: white;
+}
+
+#areaReagendar {
+    display: none;
+    margin-top: 10px;
+}
+
+#areaReagendar input[type="date"],
+#areaReagendar input[type="time"] {
+    width: calc(50% - 8px);
+    display: inline-block;
+    margin-right: 8px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#salvarReagendamento {
+    background-color: #27ae60;
+    color: white;
+    margin-top: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+@media (max-width: 480px) {
+
+    #areaReagendar input[type="date"],
+    #areaReagendar input[type="time"] {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 6px;
+    }
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\css\consultas.css
+----------------------------------------
+.agendar h2 {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+.lista h3 {
+    color: #2c3e50;
+    margin-top: 14px;
+}
+
+#listaConsultasAgendadas li {
+    background-color: #ecf0f1;
+    padding: 10px 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+#listaConsultasAgendadas li button {
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    margin-left: 6px;
+}
+
+#listaConsultasAgendadas li button:nth-child(2) {
+    background-color: #e74c3c;
+    color: white;
+}
+
+#listaConsultasAgendadas li button:nth-child(1) {
+    background-color: #2980b9;
+    color: white;
+}
+
+#botaoSair {
+    margin-top: 14px;
+    width: 100%;
+    background-color: #7f8c8d;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\css\index.css
+----------------------------------------
+.container h1 {
+    font-size: 28px;
+}
+
+.container h2 {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.acoes button {
+    background: #2980b9;
+    color: #fff;
+    min-width: 160px;
+    font-size: 16px;
+}
+
+.acoes button:nth-child(2) {
+    background: #27ae60;
+}
+
+.acoes button:hover {
+    transform: translateY(-2px);
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\css\login.css
+----------------------------------------
+.container h1,
+.container h2 {
+    color: #2c3e50;
+}
+
+.acoesForm button[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+}
+
+.acoesForm button[type="reset"] {
+    background-color: #7f8c8d;
+    color: white;
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\css\style.css
+----------------------------------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    color: #1f1f1f;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* container padrão */
+.container {
+    background-color: #ffffff;
+    padding: 30px 28px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 420px;
+    max-width: 95%;
+}
+
+/* tipografia global */
+h1 {
+    text-align: center;
+    font-size: 26px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+/* links globais */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* inputs globais */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #2980b9;
+    outline: none;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.4);
+}
+
+/* botões globais */
+button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* layouts flexíveis */
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+    justify-content: flex-start;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\html\cadastro.html
+----------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - MedCheck</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <h2>Preencha seus dados para continuar!</h2>
+
+        <form id="formCadastro">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" placeholder="Bairro, número da casa" required>
+
+            <label for="dataNascimento">Data de nascimento:</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seu.email@gmail.com" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma senha forte" required>
+
+            <label for="confirmarSenha">Confirme a senha:</label>
+            <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Escreva novamente" required>
+
+            <div class="acoesForm">
+                <button type="submit">Cadastrar</button>
+                <button type="reset">Recomeçar</button>
+            </div>
+        </form>
+
+        <p>Já tem conta? <a href="login.html">Acesse aqui</a></p>
+        <p><a href="../index.html">Voltar para a página inicial</a></p>
+    </div>
+
+    <script src="../js/cadastro.js"></script>
+</body>
+
+</html>
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\html\confirmacao.html
+----------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação - MedCheck</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/confirmacao.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Detalhes da consulta</h1>
+
+        <div id="cartaoConsulta">
+            <p>Médico: <span id="confMedico"></span></p>
+            <p>Data: <span id="confData"></span></p>
+            <p>Hora: <span id="confHora"></span></p>
+            <p>Local: <span id="confLocal"></span></p>
+        </div>
+
+        <div class="acoesConfirmacao">
+            <button id="botaoReagendar">Reagendar</button>
+            <button id="botaoCancelar">Cancelar</button>
+        </div>
+
+        <div id="areaReagendar">
+            <label for="novaData">Nova data:</label>
+            <input type="date" id="novaData">
+
+            <label for="novaHora">Nova hora:</label>
+            <input type="time" id="novaHora">
+
+            <button id="salvarReagendamento">Salvar</button>
+        </div>
+
+        <a href="consultas.html">Voltar para Consultas</a>
+        <p><a href="../index.html">Voltar para a página inicial</a></p>
+    </div>
+
+    <script src="../js/confirmacao.js"></script>
+</body>
+
+</html>
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\html\consultas.html
+----------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas - MedCheck</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/consultas.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Minhas consultas</h1>
+        <div id="infoUsuario"></div>
+
+        <div class="agendar">
+            <h2>Agendar nova consulta</h2>
+            <form id="formConsulta">
+                <label for="medico">Médico:</label>
+                <input type="text" id="medico" required>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" required>
+
+                <div class="acoesForm">
+                    <button type="submit">Agendar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="lista">
+            <h3>Consultas agendadas</h3>
+            <ul id="listaConsultasAgendadas"></ul>
+        </div>
+
+        <button id="botaoSair">Sair</button>
+        <p><a href="../index.html">Voltar para a página inicial</a></p>
+    </div>
+
+    <script src="../js/consultas.js"></script>
+</body>
+
+</html>
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\html\login.html
+----------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - MedCheck</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <h2>Informe seus dados para acessar sua conta</h2>
+
+        <form id="formLogin">
+            <label for="emailLogin">E-mail:</label>
+            <input type="email" id="emailLogin" placeholder="seu.email@gmail.com" required>
+
+            <label for="senhaLogin">Senha:</label>
+            <input type="password" id="senhaLogin" placeholder="Utilize sua senha" required>
+
+            <div class="acoesForm">
+                <button type="submit">Entrar</button>
+                <button type="reset">Recomeçar</button>
+            </div>
+        </form>
+
+        <p>Não tem conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
+        <p><a href="../index.html">Voltar para a página inicial</a></p>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\js\cadastro.js
+----------------------------------------
+// cadastro.js
+const API_BASE = (typeof API_BASE_GLOBAL !== 'undefined') ? API_BASE_GLOBAL : "http://localhost:3030";
+
+const formCadastro = document.getElementById("formCadastro");
+formCadastro.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const nome = document.getElementById("nome").value.trim();
+    const endereco = document.getElementById("endereco").value.trim();
+    const dataNascimento = document.getElementById("dataNascimento").value;
+    const email = document.getElementById("email").value.trim();
+    const senha = document.getElementById("senha").value;
+    const confirmarSenha = document.getElementById("confirmarSenha").value;
+
+    if (senha !== confirmarSenha) {
+        alert("As senhas não coincidem!");
+        return;
+    }
+
+    const usuario = { nome, endereco, dataNascimento, email, senha };
+
+    try {
+        const resp = await fetch(`${API_BASE}/users`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(usuario)
+        });
+
+        if (resp.ok) {
+            alert("Cadastro realizado com sucesso!");
+            formCadastro.reset();
+            window.location.href = "login.html";
+            return;
+        } else {
+            const err = await resp.json().catch(() => null);
+            console.warn("Erro (backend):", err);
+            alert(err?.message || "Erro no cadastro (backend). Salvando localmente.");
+        }
+    } catch (err) {
+        console.warn("Erro conectando ao backend:", err);
+    }
+
+    // Fallback local (compatibilidade)
+    let usuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+    usuarios.push(usuario);
+    localStorage.setItem("usuarios", JSON.stringify(usuarios));
+
+    alert("Cadastro realizado (salvo localmente).");
+    formCadastro.reset();
+    window.location.href = "login.html";
+});
+
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\js\confirmacao.js
+----------------------------------------
+// confirmacao.js
+const API_BASE = (typeof API_BASE_GLOBAL !== 'undefined') ? API_BASE_GLOBAL : "http://localhost:3030";
+const consultaAtual = JSON.parse(sessionStorage.getItem("consultaAtual"));
+
+const confMedico = document.getElementById("confMedico");
+const confData = document.getElementById("confData");
+const confHora = document.getElementById("confHora");
+const confLocal = document.getElementById("confLocal");
+
+const botaoReagendar = document.getElementById("botaoReagendar");
+const botaoCancelar = document.getElementById("botaoCancelar");
+const areaReagendar = document.getElementById("areaReagendar");
+const novaData = document.getElementById("novaData");
+const novaHora = document.getElementById("novaHora");
+const salvarReagendamento = document.getElementById("salvarReagendamento");
+
+if (!consultaAtual) {
+    alert("Nenhuma consulta selecionada!");
+    window.location.href = "consultas.html";
+} else {
+    confMedico.textContent = consultaAtual.medico;
+    confData.textContent = consultaAtual.data;
+    confHora.textContent = consultaAtual.hora;
+    confLocal.textContent = consultaAtual.local || "Não definido";
+}
+
+botaoReagendar.addEventListener("click", function () {
+    areaReagendar.style.display = "block";
+});
+
+salvarReagendamento.addEventListener("click", async function () {
+    const novaD = novaData.value || consultaAtual.data;
+    const novaH = novaHora.value || consultaAtual.hora;
+
+    if (consultaAtual.id) {
+        try {
+            const resp = await fetch(`${API_BASE}/consultas/${consultaAtual.id}`, {
+                method: "PUT",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ data: novaD, hora: novaH, local: consultaAtual.local || null })
+            });
+            if (resp.ok) {
+                alert("Consulta atualizada com sucesso!");
+                window.location.href = "consultas.html";
+                return;
+            } else {
+                console.warn("Erro backend ao atualizar consulta", resp.status);
+            }
+        } catch (err) {
+            console.warn("Erro conectando ao backend:", err);
+        }
+    }
+
+    // fallback local
+    let consultas = JSON.parse(localStorage.getItem("consultas")) || [];
+    const index = consultas.findIndex(c =>
+        c.email === consultaAtual.email &&
+        c.medico === consultaAtual.medico &&
+        c.data === consultaAtual.data &&
+        c.hora === consultaAtual.hora
+    );
+
+    if (index !== -1) {
+        consultas[index].data = novaD;
+        consultas[index].hora = novaH;
+        localStorage.setItem("consultas", JSON.stringify(consultas));
+        alert("Consulta atualizada com sucesso!");
+        window.location.href = "consultas.html";
+    } else {
+        alert("Não foi possível encontrar a consulta para atualizar.");
+    }
+});
+
+botaoCancelar.addEventListener("click", async function () {
+    if (!confirm("Deseja realmente cancelar esta consulta?")) return;
+
+    if (consultaAtual.id) {
+        try {
+            const resp = await fetch(`${API_BASE}/consultas/${consultaAtual.id}`, { method: "DELETE" });
+            if (resp.ok) {
+                alert("Consulta cancelada!");
+                window.location.href = "consultas.html";
+                return;
+            } else {
+                console.warn("Erro backend ao deletar consulta", resp.status);
+            }
+        } catch (err) {
+            console.warn("Erro conectando ao backend:", err);
+        }
+    }
+
+    // fallback local
+    let consultas = JSON.parse(localStorage.getItem("consultas")) || [];
+    consultas = consultas.filter(c => !(c.email === consultaAtual.email && c.medico === consultaAtual.medico && c.data === consultaAtual.data && c.hora === consultaAtual.hora));
+    localStorage.setItem("consultas", JSON.stringify(consultas));
+    alert("Consulta cancelada!");
+    window.location.href = "consultas.html";
+});
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\js\consultas.js
+----------------------------------------
+// consultas.js
+const API_BASE = (typeof API_BASE_GLOBAL !== 'undefined') ? API_BASE_GLOBAL : "http://localhost:3030";
+
+const formConsulta = document.getElementById("formConsulta");
+const listaConsultasAgendadas = document.getElementById("listaConsultasAgendadas");
+const infoUsuario = document.getElementById("infoUsuario");
+const botaoSair = document.getElementById("botaoSair");
+
+let usuarioAtual = JSON.parse(sessionStorage.getItem("usuarioAtual"));
+let consultas = JSON.parse(localStorage.getItem("consultas")) || []; // fallback
+
+if (!usuarioAtual) {
+  alert("Você precisa estar logado!");
+  window.location.href = "login.html";
+} else {
+  infoUsuario.innerHTML = `<p>Olá, ${usuarioAtual.nome}!</p>`;
+  // tenta carregar do backend (se disponível)
+  carregarConsultas();
+}
+
+async function carregarConsultas() {
+  try {
+    const resp = await fetch(`${API_BASE}/consultas/usuario/${usuarioAtual.id}`);
+    if (resp.ok) {
+      const data = await resp.json();
+      consultas = data;
+      renderizarConsultas();
+      return;
+    } else {
+      console.warn("Erro ao buscar consultas no backend, status:", resp.status);
+    }
+  } catch (err) {
+    console.warn("Não foi possível conectar ao backend para listar consultas:", err);
+  }
+  // fallback: renderizar local
+  renderizarConsultas();
+}
+
+function renderizarConsultas() {
+  listaConsultasAgendadas.innerHTML = "";
+
+  const minhasConsultas = consultas.filter(c => {
+    // quando vindo do backend, cada item tem usuario_id
+    if (c.usuario_id !== undefined) return c.usuario_id === usuarioAtual.id;
+    // fallback local (usa email)
+    return c.email === usuarioAtual.email;
+  });
+
+  minhasConsultas.forEach((consulta, index) => {
+    const li = document.createElement("li");
+    li.innerHTML = `
+      ${consulta.medico} - ${consulta.data} ${consulta.hora}
+      <div>
+        <button data-index="${index}" class="botao-editar">Editar</button>
+        <button data-index="${index}" class="botao-excluir">Excluir</button>
+      </div>
+    `;
+    listaConsultasAgendadas.appendChild(li);
+  });
+
+  document.querySelectorAll(".botao-editar").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      const idx = Number(e.currentTarget.dataset.index);
+      window.editarConsulta(idx);
+    });
+  });
+  document.querySelectorAll(".botao-excluir").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      const idx = Number(e.currentTarget.dataset.index);
+      window.excluirConsulta(idx);
+    });
+  });
+}
+
+formConsulta.addEventListener("submit", async function (e) {
+  e.preventDefault();
+
+  const medico = document.getElementById("medico").value.trim();
+  const data = document.getElementById("data").value;
+  const hora = document.getElementById("hora").value;
+
+  const novaConsulta = {
+    usuario_id: usuarioAtual.id,
+    medico,
+    data,
+    hora,
+    local: null
+  };
+
+  // tenta criar no backend
+  try {
+    const resp = await fetch(`${API_BASE}/consultas`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(novaConsulta)
+    });
+    if (resp.ok) {
+      await carregarConsultas(); // atualiza da fonte
+      formConsulta.reset();
+      return;
+    } else {
+      const err = await resp.json().catch(()=>null);
+      console.warn("Erro criando consulta (backend):", err);
+    }
+  } catch (err) {
+    console.warn("Erro conectando ao backend para criar consulta:", err);
+  }
+
+  // fallback local
+  consultas.push({ ...novaConsulta, email: usuarioAtual.email });
+  localStorage.setItem("consultas", JSON.stringify(consultas));
+  formConsulta.reset();
+  renderizarConsultas();
+});
+
+// mantém funções globais para compatibilidade com HTML inline
+window.editarConsulta = async function (index) {
+  const consulta = consultas[index];
+  if (!consulta) return;
+  // usa id quando existir (backend)
+  const id = consulta.id;
+  const novoMedico = prompt("Novo médico:", consulta.medico);
+  const novaData = prompt("Nova data:", consulta.data);
+  const novaHora = prompt("Nova hora:", consulta.hora);
+
+  const payload = {
+    medico: novoMedico || consulta.medico,
+    data: novaData || consulta.data,
+    hora: novaHora || consulta.hora,
+    local: consulta.local ?? null
+  };
+
+  if (id) {
+    // update backend
+    try {
+      const resp = await fetch(`${API_BASE}/consultas/${id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      if (resp.ok) {
+        await carregarConsultas();
+        return;
+      } else {
+        console.warn("Erro atualizando consulta (backend)", resp.status);
+      }
+    } catch (err) {
+      console.warn("Erro conectando ao backend para atualizar:", err);
+    }
+  }
+
+  // fallback local
+  consulta.medico = payload.medico;
+  consulta.data = payload.data;
+  consulta.hora = payload.hora;
+  localStorage.setItem("consultas", JSON.stringify(consultas));
+  renderizarConsultas();
+};
+
+window.excluirConsulta = async function (index) {
+  const consulta = consultas[index];
+  if (!consulta) return;
+  const id = consulta.id;
+
+  if (!confirm("Deseja realmente excluir esta consulta?")) return;
+
+  if (id) {
+    try {
+      const resp = await fetch(`${API_BASE}/consultas/${id}`, { method: "DELETE" });
+      if (resp.ok) {
+        await carregarConsultas();
+        return;
+      } else {
+        console.warn("Erro deletando consulta (backend)", resp.status);
+      }
+    } catch (err) {
+      console.warn("Erro conectando ao backend para deletar:", err);
+    }
+  }
+
+  // fallback local
+  consultas.splice(index, 1);
+  localStorage.setItem("consultas", JSON.stringify(consultas));
+  renderizarConsultas();
+};
+
+botaoSair.addEventListener("click", function () {
+  sessionStorage.removeItem("usuarioAtual");
+  window.location.href = "login.html";
+});
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\js\login.js
+----------------------------------------
+// login.js
+const API_BASE = (typeof API_BASE_GLOBAL !== 'undefined') ? API_BASE_GLOBAL : "http://localhost:3030";
+const formLogin = document.getElementById("formLogin");
+
+formLogin.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const emailLogin = document.getElementById("emailLogin").value.trim();
+    const senhaLogin = document.getElementById("senhaLogin").value;
+
+    // Tenta autenticar no backend (endpoint que retorna usuário)
+    try {
+        const resp = await fetch(`${API_BASE}/users/login`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email: emailLogin, senha: senhaLogin })
+        });
+
+        if (resp.ok) {
+            const user = await resp.json();
+            // salva na session (permanece até fechar a aba)
+            sessionStorage.setItem("usuarioAtual", JSON.stringify(user));
+            alert("Login realizado com sucesso!");
+            window.location.href = "consultas.html";
+            return;
+        } else {
+            const err = await resp.json().catch(() => null);
+            console.warn("Login falhou (backend):", err);
+            alert(err?.error || err?.message || "E-mail ou senha incorretos!");
+            return;
+        }
+    } catch (err) {
+        console.warn("Erro conectando ao backend:", err);
+    }
+
+    // Fallback localStorage
+    const usuariosLocal = JSON.parse(localStorage.getItem("usuarios")) || [];
+    const usuarioEncontrado = usuariosLocal.find(u => u.email === emailLogin && u.senha === senhaLogin);
+    if (usuarioEncontrado) {
+        sessionStorage.setItem("usuarioAtual", JSON.stringify(usuarioEncontrado));
+        alert("Login realizado com sucesso (local)!");
+        window.location.href = "consultas.html";
+    } else {
+        alert("E-mail ou senha incorretos!");
+    }
+});
+
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\routes\consultas.js
+----------------------------------------
+import express from "express";
+import {
+    getAllUsers,
+    createUser,
+    loginUser
+} from "../controllers/usersController.js";
+
+export const router = express.Router();
+
+router.get("/", getAllUsers);
+router.post("/", createUser);
+router.post("/login", loginUser);
+
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\routes\users.js
+----------------------------------------
+import express from "express";
+import {
+    getAllUsers,
+    createUser,
+    loginUser
+} from "../controllers/usersController.js";
+
+export const router = express.Router();
+
+router.get("/", getAllUsers);
+router.post("/", createUser);
+router.post("/login", loginUser);
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\index.html
+----------------------------------------
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedCheck</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao MedCheck!</h1>
+        <h2>Escolha uma opção:</h2>
+
+        <div class="acoes">
+            <a href="html/cadastro.html"><button>Cadastrar</button></a>
+            <a href="html/login.html"><button>Já tenho uma conta</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\server.js
+----------------------------------------
+import express from "express";
+import cors from "cors";
+import { router as usersRouter } from "./routes/users.js";
+import { router as consultasRouter } from "./routes/consultas.js";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const app = express();
+app.use(cors());
+app.use(express.json());
+
+app.get("/", (req, res) => {
+    res.send("Servidor ONLINE!");
+});
+
+app.use("/users", usersRouter);
+app.use("/consultas", consultasRouter);
+
+const PORT = process.env.PORT || 3030;
+app.listen(PORT, () => {
+    console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
+
+
+----------------------------------------
+ARQUIVO: C:\Users\Alysson\Documents\MedCheck-v2\supabaseClient.js
+----------------------------------------
+import { createClient } from "@supabase/supabase-js";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+export const supabase = createClient(
+    process.env.SUPABASE_URL,
+    process.env.SUPABASE_KEY
+);
+
+
+

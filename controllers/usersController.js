@@ -9,11 +9,11 @@ export async function getAllUsers(req, res) {
 
 // POST /users – cadastro
 export async function createUser(req, res) {
-    const { nome, endereco, dataNascimento, email, senha } = req.body;
+    const { nome, endereco, datanascimento, email, senha } = req.body;
 
     const { data, error } = await supabase
         .from("users")
-        .insert([{ nome, endereco, dataNascimento, email, senha }])
+        .insert([{ nome, endereco, datanascimento, email, senha }])
         .select()
         .single();
 

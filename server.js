@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
-import { router as usersRouter } from "./backend/routes/users.js";
-import { router as consultasRouter } from "./backend/routes/consultas.js";
+import { router as usersRouter } from "./routes/users.js";
+import { router as consultasRouter } from "./routes/consultas.js";
 import dotenv from "dotenv";
 
 dotenv.config();
