@@ -1,5 +1,8 @@
 // confirmacao.js
-const API_BASE = (typeof API_BASE_GLOBAL !== 'undefined') ? API_BASE_GLOBAL : "http://localhost:3030";
+const API_BASE_GLOBAL = "https://medcheck-backend-dbbr.onrender.com";
+const API_LOCAL = "http://localhost:3030";
+const API_BASE = (location.hostname === "localhost") ? API_LOCAL : API_BASE_GLOBAL;
+
 const consultaAtual = JSON.parse(sessionStorage.getItem("consultaAtual"));
 
 const confMedico = document.getElementById("confMedico");
